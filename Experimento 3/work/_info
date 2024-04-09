@@ -1,0 +1,179 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Edecod_4to16
+Z0 w1712632785
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 35
+Z3 dE:/UnB/UnB_LAB-SD/Experimento 3
+Z4 8E:/UnB/UnB_LAB-SD/Experimento 3/decod_4to16.vhd
+Z5 FE:/UnB/UnB_LAB-SD/Experimento 3/decod_4to16.vhd
+l0
+L20 1
+V@h<[Qc_?f6Za]okh^nJE<1
+!s100 ]CZOVS4=SOZ]nHY>DP5m33
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1712633223
+!i10b 1
+Z8 !s108 1712633223.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 3/decod_4to16.vhd|
+Z10 !s107 E:/UnB/UnB_LAB-SD/Experimento 3/decod_4to16.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Adecod_4to16_arch
+R1
+R2
+Z13 DEx4 work 11 decod_4to16 0 22 @h<[Qc_?f6Za]okh^nJE<1
+!i122 35
+l30
+Z14 L29 20
+Z15 VnSclQLo69XHl80oSBnhnJ1
+Z16 !s100 =[_@N]0:S5W;6iWBRTWD80
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edecod_4to16_testbench
+Z17 w1712633204
+Z18 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+!i122 33
+R3
+Z19 8E:/UnB/UnB_LAB-SD/Experimento 3/tb_decod_4to16.vhd
+Z20 FE:/UnB/UnB_LAB-SD/Experimento 3/tb_decod_4to16.vhd
+l0
+L25 1
+Vnbd:C3;A2aC`nef=4][M41
+!s100 aP9CYf1OLPj3mbb8InL1a1
+R6
+32
+Z21 !s110 1712633222
+!i10b 1
+Z22 !s108 1712633222.000000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 3/tb_decod_4to16.vhd|
+Z24 !s107 E:/UnB/UnB_LAB-SD/Experimento 3/tb_decod_4to16.vhd|
+!i113 1
+R11
+R12
+Atb_decod_4to16
+R18
+R1
+R2
+DEx4 work 21 decod_4to16_testbench 0 22 nbd:C3;A2aC`nef=4][M41
+!i122 33
+l45
+L30 34
+V7;9PYJbPIRUB[idIzAAf@2
+!s100 Hak?4IH4B6=9XMJDJNG0J1
+R6
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R11
+R12
+Emultiplex_8x1
+Z25 w1712632509
+R1
+R2
+!i122 32
+R3
+Z26 8E:/UnB/UnB_LAB-SD/Experimento 3/multiplex_8x1.vhd
+Z27 FE:/UnB/UnB_LAB-SD/Experimento 3/multiplex_8x1.vhd
+l0
+L21 1
+VIa3nIM1^B67_oWSHeZKdE1
+!s100 _dn`PnW2L7JzW7_CIAgRg1
+R6
+32
+R21
+!i10b 1
+R22
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 3/multiplex_8x1.vhd|
+Z29 !s107 E:/UnB/UnB_LAB-SD/Experimento 3/multiplex_8x1.vhd|
+!i113 1
+R11
+R12
+Amultiplex_8x1_arch
+R1
+R2
+DEx4 work 13 multiplex_8x1 0 22 Ia3nIM1^B67_oWSHeZKdE1
+!i122 32
+l32
+L31 11
+V11QXnE7zfO5n6A?>EPcaF2
+!s100 eG_4jI<C5mz>mzbkdTMEm1
+R6
+32
+R21
+!i10b 1
+R22
+R28
+R29
+!i113 1
+R11
+R12
+Emultiplex_8x1_testbench
+Z30 w1712633171
+R18
+R1
+R2
+!i122 34
+R3
+Z31 8E:/UnB/UnB_LAB-SD/Experimento 3/tb_multiplex_4x1.vhd
+Z32 FE:/UnB/UnB_LAB-SD/Experimento 3/tb_multiplex_4x1.vhd
+l0
+L26 1
+V0YIB<Sc;Vd7bz<b9_E;Vn0
+!s100 @1CP:kazZA[W6hJ9zEP]n1
+R6
+32
+R7
+!i10b 1
+R8
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 3/tb_multiplex_4x1.vhd|
+Z34 !s107 E:/UnB/UnB_LAB-SD/Experimento 3/tb_multiplex_4x1.vhd|
+!i113 1
+R11
+R12
+Atb_multiplex_8x1
+R18
+R1
+R2
+DEx4 work 23 multiplex_8x1_testbench 0 22 0YIB<Sc;Vd7bz<b9_E;Vn0
+!i122 34
+l48
+L31 42
+VbEVDnSXSRL^SPO[K[aQR_3
+!s100 G<bFhA[diDKZT6n`2lLVA3
+R6
+32
+R7
+!i10b 1
+R8
+R33
+R34
+!i113 1
+R11
+R12

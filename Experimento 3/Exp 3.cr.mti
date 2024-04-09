@@ -1,0 +1,79 @@
+{E:/UnB/UnB_LAB-SD/Experimento 3/decod_4to16.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Experimento 3/decod_4to16.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decod_4to16
+-- Compiling architecture decod_4to16_arch of decod_4to16
+
+} {} {}} {E:/UnB/UnB_LAB-SD/Experimento 3/multiplex_8x1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Experimento 3/multiplex_8x1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity multiplex_8x1
+-- Compiling architecture multiplex_8x1_arch of multiplex_8x1
+
+} {} {}} {{E:/UnB/UnB_LAB-SD/Experimento 3/decod_4to16.vhd}} {1 {vcom -work work -2002 -explicit {E:/UnB/UnB_LAB-SD/Experimento 3/decod_4to16.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 00:19:51 on Apr 09,2024
+vcom -reportprogress 300 -work work -2002 -explicit E:/UnB/UnB_LAB-SD/Experimento 3/decod_4to16.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decod_4to16
+-- Compiling architecture decod_4to16_arch of decod_4to16
+End time: 00:19:51 on Apr 09,2024, Elapsed time: 0:00:00
+
+} {} {}} {{E:/UnB/UnB_LAB-SD/Experimento 3/multiplex_8x1.vhd}} {1 {vcom -work work -2002 -explicit {E:/UnB/UnB_LAB-SD/Experimento 3/multiplex_8x1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 00:19:50 on Apr 09,2024
+vcom -reportprogress 300 -work work -2002 -explicit E:/UnB/UnB_LAB-SD/Experimento 3/multiplex_8x1.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity multiplex_8x1
+-- Compiling architecture multiplex_8x1_arch of multiplex_8x1
+End time: 00:19:50 on Apr 09,2024, Elapsed time: 0:00:00
+
+} {} {}} {E:/UnB/UnB_LAB-SD/Experimento 3/tb_multiplex_4x1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Experimento 3/tb_multiplex_4x1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity multiplex_8x1_testbench
+-- Compiling architecture tb_multiplex_8x1 of multiplex_8x1_testbench
+
+} {} {}} {E:/UnB/UnB_LAB-SD/Experimento 3/tb_decod_4to16.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Experimento 3/tb_decod_4to16.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity decod_4to16_testbench
+-- Compiling architecture tb_decod_4to16 of decod_4to16_testbench
+
+} {} {}} {{E:/UnB/UnB_LAB-SD/Experimento 3/tb_multiplex_4x1.vhd}} {1 {vcom -work work -2002 -explicit {E:/UnB/UnB_LAB-SD/Experimento 3/tb_multiplex_4x1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 00:19:51 on Apr 09,2024
+vcom -reportprogress 300 -work work -2002 -explicit E:/UnB/UnB_LAB-SD/Experimento 3/tb_multiplex_4x1.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity multiplex_8x1_testbench
+-- Compiling architecture tb_multiplex_8x1 of multiplex_8x1_testbench
+End time: 00:19:51 on Apr 09,2024, Elapsed time: 0:00:00
+
+} {} {}} {{E:/UnB/UnB_LAB-SD/Experimento 3/tb_decod_4to16.vhd}} {1 {vcom -work work -2002 -explicit {E:/UnB/UnB_LAB-SD/Experimento 3/tb_decod_4to16.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 00:19:50 on Apr 09,2024
+vcom -reportprogress 300 -work work -2002 -explicit E:/UnB/UnB_LAB-SD/Experimento 3/tb_decod_4to16.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decod_4to16_testbench
+-- Compiling architecture tb_decod_4to16 of decod_4to16_testbench
+End time: 00:19:51 on Apr 09,2024, Elapsed time: 0:00:01
+
+} {} {}}
