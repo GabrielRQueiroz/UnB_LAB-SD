@@ -31,7 +31,7 @@ ENTITY testbench IS END;
 
 ARCHITECTURE tb_somador_completo OF testbench IS
    -- declaração do componente somador de acordo com sua arquitetura no arquivo somador_completo.vhd
-   COMPONENT somador_aux
+   COMPONENT somador_completo
       PORT (
          -- declaração dos pinos de entrada
          a   : IN STD_LOGIC;
@@ -50,7 +50,7 @@ ARCHITECTURE tb_somador_completo OF testbench IS
 
    -- Instância do componente somador e conexão dos sinais
 BEGIN
-   somador : somador_aux PORT MAP(
+   somador : somador_completo PORT MAP(
       -- conexão dos pinos de entrada
       a   => a_aux,
       b   => b_aux,

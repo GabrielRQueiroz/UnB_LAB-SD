@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
 !i10d 8192
@@ -8,3 +9,167 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA/20.1
+Emultiplex_4x1
+Z0 w1712622568
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+Z3 dE:/UnB/UnB_LAB-SD/Experimento 2
+Z4 8E:/UnB/UnB_LAB-SD/Experimento 2/multiplex_4x1.vhd
+Z5 FE:/UnB/UnB_LAB-SD/Experimento 2/multiplex_4x1.vhd
+l0
+L21 1
+VU0dC4@CY4Xn7CY@0@kPg82
+!s100 GHU@S?a0[ECkaBKdXHoH23
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1712787273
+!i10b 1
+Z8 !s108 1712787273.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 2/multiplex_4x1.vhd|
+Z10 !s107 E:/UnB/UnB_LAB-SD/Experimento 2/multiplex_4x1.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Amultiplex_4x1_arch
+R1
+R2
+DEx4 work 13 multiplex_4x1 0 22 U0dC4@CY4Xn7CY@0@kPg82
+!i122 2
+l32
+L31 9
+Vn]H]657GOJ^UMHV87_2Qz3
+!s100 F]ffW7m2P7mP:oPlR8c]m0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Emultiplex_testbench
+R0
+R1
+R2
+!i122 4
+R3
+Z13 8E:/UnB/UnB_LAB-SD/Experimento 2/tb_multiplex_4x1.vhd
+Z14 FE:/UnB/UnB_LAB-SD/Experimento 2/tb_multiplex_4x1.vhd
+l0
+L25 1
+V<c>;1AG^]eM?<=FfiW8Fb3
+!s100 kRm[4>YAG4Q9hzTUz7K5n3
+R6
+32
+R7
+!i10b 1
+R8
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 2/tb_multiplex_4x1.vhd|
+Z16 !s107 E:/UnB/UnB_LAB-SD/Experimento 2/tb_multiplex_4x1.vhd|
+!i113 1
+R11
+R12
+Atb_multiplex_4x1
+R1
+R2
+DEx4 work 19 multiplex_testbench 0 22 <c>;1AG^]eM?<=FfiW8Fb3
+!i122 4
+l47
+L30 79
+V[721?:0oDjZR5m4jZkhE_1
+!s100 KP8jaIf6?KB>AcnZIBnel1
+R6
+32
+R7
+!i10b 1
+R8
+R15
+R16
+!i113 1
+R11
+R12
+Esomador_completo
+R0
+R1
+R2
+!i122 3
+R3
+Z17 8E:/UnB/UnB_LAB-SD/Experimento 2/somador_completo.vhd
+Z18 FE:/UnB/UnB_LAB-SD/Experimento 2/somador_completo.vhd
+l0
+L26 1
+V91O22BX=m`_fTUemIi[Sf2
+!s100 l:DaN8Sh;iTXP<A;4kFDl2
+R6
+32
+R7
+!i10b 1
+R8
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 2/somador_completo.vhd|
+Z20 !s107 E:/UnB/UnB_LAB-SD/Experimento 2/somador_completo.vhd|
+!i113 1
+R11
+R12
+Asomador_arch
+R1
+R2
+DEx4 work 16 somador_completo 0 22 91O22BX=m`_fTUemIi[Sf2
+!i122 3
+l38
+L37 5
+V9i?_3VgSDcE8Tk;:^Bb_R1
+!s100 dHRjP99JM_U4PN88Bk=6k3
+R6
+32
+R7
+!i10b 1
+R8
+R19
+R20
+!i113 1
+R11
+R12
+Etestbench
+Z21 w1712787169
+R1
+R2
+!i122 5
+R3
+Z22 8E:/UnB/UnB_LAB-SD/Experimento 2/tb_somador_completo.vhd
+Z23 FE:/UnB/UnB_LAB-SD/Experimento 2/tb_somador_completo.vhd
+l0
+L27 1
+V:?BS:`z;HR3Dji9NOnOiF2
+!s100 I8AboED4o@8?1Bd`z[gjK0
+R6
+32
+Z24 !s110 1712787274
+!i10b 1
+R8
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 2/tb_somador_completo.vhd|
+!s107 E:/UnB/UnB_LAB-SD/Experimento 2/tb_somador_completo.vhd|
+!i113 1
+R11
+R12
+Atb_somador_completo
+R1
+R2
+Z26 DEx4 work 9 testbench 0 22 :?BS:`z;HR3Dji9NOnOiF2
+!i122 5
+l52
+Z27 L32 69
+V?jI=K^N7=Ma[JceG4CI]>0
+!s100 fkokl:MKndG_:[=lg[Th90
+R6
+32
+R24
+!i10b 1
+R8
+R25
+Z28 !s107 E:/UnB/UnB_LAB-SD/Experimento 2/tb_somador_completo.vhd|
+!i113 1
+R11
+R12

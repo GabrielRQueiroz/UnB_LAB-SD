@@ -1,4 +1,12 @@
-{{C:/Users/gabri/OneDrive/UnB/Lab SD - Laboratório de Sistemas Digitais/Experimento 2/tb_somador_completo.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/gabri/OneDrive/UnB/Lab SD - Laboratório de Sistemas Digitais/Experimento 2/tb_somador_completo.vhd}
+{E:/UnB/UnB_LAB-SD/Experimento 2/somador_completo.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Experimento 2/somador_completo.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity somador_completo
+-- Compiling architecture somador_arch of somador_completo
+
+} {} {}} {{C:/Users/gabri/OneDrive/UnB/Lab SD - Laboratório de Sistemas Digitais/Experimento 2/tb_somador_completo.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/gabri/OneDrive/UnB/Lab SD - Laboratório de Sistemas Digitais/Experimento 2/tb_somador_completo.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 Start time: 08:27:53 on Mar 28,2024
 vcom -reportprogress 300 -work work -2002 -explicit C:/Users/gabri/OneDrive/UnB/Lab SD - Laboratório de Sistemas Digitais/Experimento 2/tb_somador_completo.vhd 
@@ -9,13 +17,29 @@ mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
 ** Note: C:/Users/gabri/OneDrive/UnB/Lab SD - Laboratório de Sistemas Digitais/Experimento 2/tb_somador_completo.vhd(18): VHDL Compiler exiting
 End time: 08:27:53 on Mar 28,2024, Elapsed time: 0:00:00
 
-} {} {}} {C:/Users/gabri/OneDrive/UnB/Lab SD - Laboratório de Sistemas Digitais/Experimento 2/tb_somador_completo.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/gabri/OneDrive/UnB/Lab SD - Laboratório de Sistemas Digitais/Experimento 2/tb_somador_completo.vhd}
+} {} {}} {E:/UnB/UnB_LAB-SD/Experimento 2/tb_somador_completo.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Experimento 2/tb_somador_completo.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
-init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Users/gabri/OneDrive/UnB/Lab SD - Laboratório de Sistemas Digitais/Experimento 2/work/_lib.qdb): unable to open database file
-mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
-** Fatal: (vcom-9) Problem while writing token file "C:/Users/gabri/OneDrive/UnB/Lab SD - Laboratório de Sistemas Digitais/Experimento 2/work/_temp/vcom3tmnvv".
-** Note: C:/Users/gabri/OneDrive/UnB/Lab SD - Laboratório de Sistemas Digitais/Experimento 2/tb_somador_completo.vhd(18): VHDL Compiler exiting
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity testbench
+-- Compiling architecture tb_somador_completo of testbench
+
+} {} {}} {E:/UnB/UnB_LAB-SD/Experimento 2/multiplex_4x1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Experimento 2/multiplex_4x1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity multiplex_4x1
+-- Compiling architecture multiplex_4x1_arch of multiplex_4x1
+
+} {} {}} {E:/UnB/UnB_LAB-SD/Experimento 2/tb_multiplex_4x1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Experimento 2/tb_multiplex_4x1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity multiplex_testbench
+-- Compiling architecture tb_multiplex_4x1 of multiplex_testbench
 
 } {} {}} {{C:/Users/gabri/OneDrive/UnB/Lab SD - Laboratório de Sistemas Digitais/Experimento 2/somador_completo.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/gabri/OneDrive/UnB/Lab SD - Laboratório de Sistemas Digitais/Experimento 2/somador_completo.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -27,13 +51,5 @@ mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
 ** Fatal: (vcom-9) Problem while writing token file "C:/Users/gabri/OneDrive/UnB/Lab SD - Laboratório de Sistemas Digitais/Experimento 2/work/_temp/vcoma7xggy".
 ** Note: C:/Users/gabri/OneDrive/UnB/Lab SD - Laboratório de Sistemas Digitais/Experimento 2/somador_completo.vhd(20): VHDL Compiler exiting
 End time: 08:27:52 on Mar 28,2024, Elapsed time: 0:00:00
-
-} {} {}} {C:/Users/gabri/OneDrive/UnB/Lab SD - Laboratório de Sistemas Digitais/Experimento 2/somador_completo.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/gabri/OneDrive/UnB/Lab SD - Laboratório de Sistemas Digitais/Experimento 2/somador_completo.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
-init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Users/gabri/OneDrive/UnB/Lab SD - Laboratório de Sistemas Digitais/Experimento 2/work/_lib.qdb): unable to open database file
-mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
-** Fatal: (vcom-9) Problem while writing token file "C:/Users/gabri/OneDrive/UnB/Lab SD - Laboratório de Sistemas Digitais/Experimento 2/work/_temp/vcomcxbg3b".
-** Note: C:/Users/gabri/OneDrive/UnB/Lab SD - Laboratório de Sistemas Digitais/Experimento 2/somador_completo.vhd(20): VHDL Compiler exiting
 
 } {} {}}
