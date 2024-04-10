@@ -6,8 +6,8 @@
 -- ************
 -- Testbench para a simulaÁ„o do
 -- Circuito: Decodificador de 4 para 16, que recebe como entrada um vetor de 4 bits e como saÌda um vetor de 16 bits:
---          a   Vetor de entrada de 4 bits
---          y   Vetor de saÌda de 16 bits
+--          i_A   Vetor de entrada de 4 bits
+--          o_Y   Vetor de saÌda de 16 bits
 -- ************
 
 -- ************ Package ************
@@ -32,29 +32,29 @@ ARCHITECTURE tb_decod_4to16 OF decod_4to16_testbench IS
    COMPONENT decod_4to16
       PORT (
          -- declaraÁ„o dos pinos de entrada
-         a : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+         i_A : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
          -- declaraÁ„o dos pinos de sa√≠da
-         y : OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
+         o_Y : OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
       );
    END COMPONENT;
 
    -- Sinais auxiliares para a simulaÁ„o dos estÌ≠mulos ao circuito
-   SIGNAL a_aux : STD_LOGIC_VECTOR(3 DOWNTO 0) := "0000";
+   SIGNAL w_A_AUX : STD_LOGIC_VECTOR(3 DOWNTO 0) := "0000";
 
    -- Inst‚ncia do componente decod_4to16 e conex„o dos sinais
 BEGIN
    decod : decod_4to16 PORT MAP(
       -- conex„o dos pinos de entrada
-      a => a_aux,
+      i_A => w_A_AUX,
       -- conex„o dos pinos de saÌda
-      y => OPEN
+      o_Y => OPEN
    );
 
    -- Processo para gerar os est√≠Ìulos
    estimulo : PROCESS
    BEGIN
       for i in 0 to 15 loop
-         a_aux <= std_logic_vector(to_unsigned(i, 4));
+         w_A_AUX <= std_logic_vector(to_unsigned(i, 4));
          WAIT FOR 10 ns;
       end loop;
       WAIT;

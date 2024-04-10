@@ -5,8 +5,8 @@
 
 -- ************
 -- Circuito: Decodificador de 4 para 16, que recebe como entrada um vetor de 4 bits e como saída um vetor de 16 bits:
---          a   Vetor de entrada de 4 bits
---          y   Vetor de saída de 16 bits
+--          i_A   Vetor de entrada de 4 bits
+--          o_Y   Vetor de saída de 16 bits
 -- ************
 
 -- ************ Package ************
@@ -19,8 +19,8 @@ USE IEEE.std_logic_1164.ALL;
 
 ENTITY decod_4to16 IS
   PORT (
-    a : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-    y : OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
+    i_A : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+    o_Y : OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
   );
 END decod_4to16;
 -- ************ Architecture ************
@@ -28,8 +28,8 @@ END decod_4to16;
 
 ARCHITECTURE decod_4to16_arch OF decod_4to16 IS
 BEGIN
-  WITH a SELECT
-    y <= "0000000000000001" WHEN "0000",
+  WITH i_A SELECT
+    o_Y <= "0000000000000001" WHEN "0000",
     "0000000000000010" WHEN "0001",
     "0000000000000100" WHEN "0010",
     "0000000000001000" WHEN "0011",

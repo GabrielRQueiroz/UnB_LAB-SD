@@ -13,7 +13,7 @@
 -- ************ Package ************
 -- constantes e bibliotecas
 library IEEE;
-use IEEE.std_logic_1164.all
+use IEEE.std_logic_1164.all;
 
 -- ************ Entity ************
 -- pinos de entrada e saída

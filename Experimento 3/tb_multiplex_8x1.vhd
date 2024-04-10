@@ -6,9 +6,9 @@
 -- ************
 -- Testbench para a simulaÁ„o do
 -- Circuito: Multiplexador 8x1 com 8 bits de dados, 3 bits de seleÁ„o e uma saÌ≠da:
---          data   Entrada de 8 bits de dados
---          sel   Entrada de 3 bits de seleÁ„o
---          y   SaÌ≠da do mux
+--          i_DATA  Entrada de 8 bits de dados
+--          i_SEL   Entrada de 3 bits de seleÁ„o
+--          o_Y     SaÌ≠da do mux
 -- ************
 
 -- ************ Package ************
@@ -33,40 +33,39 @@ ARCHITECTURE tb_multiplex_8x1 OF multiplex_8x1_testbench IS
    COMPONENT multiplex_8x1
       PORT (
          -- declaraÁ„o dos pinos de entrada
-         data : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
-         sel  : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+         i_DATA : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+         i_SEL  : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
          -- declaraÁ„o dos pinos de sa√≠da
-         y : OUT STD_LOGIC
+         o_Y : OUT STD_LOGIC
       );
    END COMPONENT;
 
    -- Sinais auxiliares para a simulaÁ„o dos estÌ≠mulos ao circuito
-   SIGNAL data_aux : STD_LOGIC_VECTOR(7 DOWNTO 0) := "00000000";
-   SIGNAL sel_aux  : STD_LOGIC_VECTOR(2 DOWNTO 0) := "000";
+   SIGNAL w_DATA_AUX : STD_LOGIC_VECTOR(7 DOWNTO 0) := "00000000";
+   SIGNAL w_SEL_AUX  : STD_LOGIC_VECTOR(2 DOWNTO 0) := "000";
 
    -- Inst‚ncia do componente multiplex_8x1 e conex„o dos sinais
 BEGIN
    multiplex : multiplex_8x1 PORT MAP(
       -- conex„o dos pinos de entrada
-      data => data_aux,
-      sel  => sel_aux,
+      i_DATA => w_DATA_AUX,
+      i_SEL  => w_SEL_AUX,
       -- conex„o dos pinos de saÌda
-      y => OPEN
+      o_Y => OPEN
    );
 
    -- Processo para gerar os est√≠Ìulos
    estimulo : PROCESS
    BEGIN
-         for i in 0 to 7 loop
+      FOR i IN 0 TO 7 LOOP
+         WAIT FOR 5 ns;
+         w_DATA_AUX <= STD_LOGIC_VECTOR(to_unsigned(2 ** i, 8));
+         FOR j IN 0 TO 7 LOOP
             WAIT FOR 5 ns;
-            -- Only one bit 1 in data
-            data_aux <= std_logic_vector(to_unsigned(2**i, 8));
-            for j in 0 to 7 loop
-               WAIT FOR 5 ns;
-               sel_aux <= std_logic_vector(to_unsigned(j, 3));
-            end loop;
-         end loop;
-      
+            w_SEL_AUX <= STD_LOGIC_VECTOR(to_unsigned(j, 3));
+         END LOOP;
+      END LOOP;
+
       WAIT;
    END PROCESS estimulo;
 END tb_multiplex_8x1;
