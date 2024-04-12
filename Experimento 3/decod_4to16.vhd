@@ -1,12 +1,12 @@
--- Universidade de Brasília
--- Laboratório de Sistemas Digitais
+-- Universidade de Brasï¿½lia
+-- Laboratï¿½rio de Sistemas Digitais
 -- Autor: Gabriel Roberto de Queiroz
 -- Data: 19/04/2024
 
 -- ************
--- Circuito: Decodificador de 4 para 16, que recebe como entrada um vetor de 4 bits e como saída um vetor de 16 bits:
+-- Circuito: Decodificador de 4 para 16, que recebe como entrada um vetor de 4 bits e como saï¿½da um vetor de 16 bits:
 --          i_A   Vetor de entrada de 4 bits
---          o_Y   Vetor de saída de 16 bits
+--          o_Y   Vetor de saï¿½da de 16 bits
 -- ************
 
 -- ************ Package ************
@@ -15,7 +15,7 @@ LIBRARY IEEE;
 USE IEEE.std_logic_1164.ALL;
 
 -- ************ Entity ************
--- pinos de entrada e saída
+-- pinos de entrada e saï¿½da
 
 ENTITY decod_4to16 IS
   PORT (
@@ -24,25 +24,25 @@ ENTITY decod_4to16 IS
   );
 END decod_4to16;
 -- ************ Architecture ************
--- implementação do projeto
+-- implementaï¿½ï¿½o do projeto
 
 ARCHITECTURE decod_4to16_arch OF decod_4to16 IS
 BEGIN
   WITH i_A SELECT
-    o_Y <= "0000000000000001" WHEN "0000",
-    "0000000000000010" WHEN "0001",
-    "0000000000000100" WHEN "0010",
-    "0000000000001000" WHEN "0011",
-    "0000000000010000" WHEN "0100",
-    "0000000000100000" WHEN "0101",
-    "0000000001000000" WHEN "0110",
-    "0000000010000000" WHEN "0111",
-    "0000000100000000" WHEN "1000",
-    "0000001000000000" WHEN "1001",
-    "0000010000000000" WHEN "1010",
-    "0000100000000000" WHEN "1011",
-    "0001000000000000" WHEN "1100",
-    "0010000000000000" WHEN "1101",
-    "0100000000000000" WHEN "1110",
-    "1000000000000000" WHEN OTHERS;
+    o_Y <= X"0001" WHEN "0000",
+           X"0002" WHEN "0001",
+           X"0004" WHEN "0010",
+           X"0008" WHEN "0011",
+           X"0010" WHEN "0100",
+           X"0020" WHEN "0101",
+           X"0040" WHEN "0110",
+           X"0080" WHEN "0111",
+           X"0100" WHEN "1000",
+           X"0200" WHEN "1001",
+           X"0400" WHEN "1010",
+           X"0800" WHEN "1011",
+           X"1000" WHEN "1100",
+           X"2000" WHEN "1101",
+           X"4000" WHEN "1110",
+           X"8000" WHEN OTHERS;
 END decod_4to16_arch;
