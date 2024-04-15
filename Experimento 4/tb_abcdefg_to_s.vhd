@@ -37,20 +37,20 @@ ARCHITECTURE tb_abcdefg_to_s OF abcdefg_to_s_testbench IS
    END COMPONENT;
 
    -- Sinais auxiliares para a simulação dos estí­mulos ao circuito
-   SIGNAL w_A_AUX, w_B_AUX, w_C_AUX, w_D_AUX, w_E_AUX, w_F_AUX, w_G_AUX : STD_LOGIC;
-   SIGNAL w_INPUT_VECTOR                                                : STD_LOGIC_VECTOR(6 DOWNTO 0) := "0000000";
+   SIGNAL x_A_AUX, x_B_AUX, x_C_AUX, x_D_AUX, x_E_AUX, x_F_AUX, x_G_AUX : STD_LOGIC;
+   SIGNAL x_INPUT_VECTOR                                                : STD_LOGIC_VECTOR(6 DOWNTO 0) := "0000000";
 
    -- Instância do componente abcdefg_to_s e conexão dos sinais
 BEGIN
    abcdefg_circuit : abcdefg_to_s PORT MAP(
       -- conexão dos pinos de entrada
-      i_A => w_A_AUX,
-      i_B => w_B_AUX,
-      i_C => w_C_AUX,
-      i_D => w_D_AUX,
-      i_E => w_E_AUX,
-      i_F => w_F_AUX,
-      i_G => w_G_AUX,
+      i_A => x_A_AUX,
+      i_B => x_B_AUX,
+      i_C => x_C_AUX,
+      i_D => x_D_AUX,
+      i_E => x_E_AUX,
+      i_F => x_F_AUX,
+      i_G => x_G_AUX,
       -- conexão dos pinos de saída
       o_S => OPEN
    );
@@ -60,14 +60,14 @@ BEGIN
    BEGIN
       FOR i IN 0 TO 127 LOOP
          WAIT FOR 5 ns;
-         w_INPUT_VECTOR <= STD_LOGIC_VECTOR(to_unsigned(i, 7));
-         w_A_AUX <= w_INPUT_VECTOR(0);
-         w_B_AUX <= w_INPUT_VECTOR(1);
-         w_C_AUX <= w_INPUT_VECTOR(2);
-         w_D_AUX <= w_INPUT_VECTOR(3);
-         w_E_AUX <= w_INPUT_VECTOR(4);
-         w_F_AUX <= w_INPUT_VECTOR(5);
-         w_G_AUX <= w_INPUT_VECTOR(6);
+         x_INPUT_VECTOR <= STD_LOGIC_VECTOR(to_unsigned(i, 7));
+         x_A_AUX <= x_INPUT_VECTOR(0);
+         x_B_AUX <= x_INPUT_VECTOR(1);
+         x_C_AUX <= x_INPUT_VECTOR(2);
+         x_D_AUX <= x_INPUT_VECTOR(3);
+         x_E_AUX <= x_INPUT_VECTOR(4);
+         x_F_AUX <= x_INPUT_VECTOR(5);
+         x_G_AUX <= x_INPUT_VECTOR(6);
 
       END LOOP;
 

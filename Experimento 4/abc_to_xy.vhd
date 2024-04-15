@@ -30,30 +30,30 @@ END abc_to_xy;
 ARCHITECTURE abc_to_xy_arch OF abc_to_xy IS
 
     -- Configuração das entradas de dados dos multiplexadores de X e de Y
-    SIGNAL w_NOT_C  : STD_LOGIC;
-    SIGNAL w_DATA_X : STD_LOGIC_VECTOR(3 DOWNTO 0);
-    SIGNAL w_DATA_Y : STD_LOGIC_VECTOR(3 DOWNTO 0);
-    SIGNAL w_SEL    : STD_LOGIC_VECTOR(1 DOWNTO 0);
+    SIGNAL x_NOT_C  : STD_LOGIC;
+    SIGNAL x_DATA_X : STD_LOGIC_VECTOR(3 DOWNTO 0);
+    SIGNAL x_DATA_Y : STD_LOGIC_VECTOR(3 DOWNTO 0);
+    SIGNAL x_SEL    : STD_LOGIC_VECTOR(1 DOWNTO 0);
 
 BEGIN
     -- implementação do circuito
 
     -- Uma �nica porta inversora
-    w_NOT_C <= NOT i_C;
+    x_NOT_C <= NOT i_C;
 
-    w_DATA_X <= i_C & "0" & w_NOT_C & "1";
-    w_DATA_Y <= "1" & w_NOT_C & i_C & "0";
-    w_SEL    <= i_A & i_B;
+    x_DATA_X <= i_C & "0" & x_NOT_C & "1";
+    x_DATA_Y <= "1" & x_NOT_C & i_C & "0";
+    x_SEL    <= i_A & i_B;
 
     multiplex_for_X : ENTITY work.multiplex_4x1 PORT MAP(
-        w_DATA_X,
-        w_SEL,
+        x_DATA_X,
+        x_SEL,
         o_X
         );
 
     multiplex_for_Y : ENTITY work.multiplex_4x1 PORT MAP(
-        w_DATA_Y,
-        w_SEL,
+        x_DATA_Y,
+        x_SEL,
         o_Y
         );
 

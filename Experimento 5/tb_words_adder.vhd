@@ -50,8 +50,8 @@ ARCHITECTURE tb_words_adder OF words_adder_testbench IS
    END COMPONENT;
 
    -- Sinais auxiliares para a simulação dos estímulos ao circuito
-   SIGNAL w_A, w_B            : STD_LOGIC_VECTOR(3 DOWNTO 0);
-   SIGNAL w_DUT_OUT, w_GM_OUT : STD_LOGIC_VECTOR(4 DOWNTO 0);
+   SIGNAL x_A, x_B            : STD_LOGIC_VECTOR(3 DOWNTO 0);
+   SIGNAL x_DUT_OUT, x_GM_OUT : STD_LOGIC_VECTOR(4 DOWNTO 0);
 
    FUNCTION check_output_equality(a, b : STD_LOGIC_VECTOR(4 DOWNTO 0)) RETURN BOOLEAN IS
    BEGIN
@@ -66,17 +66,17 @@ BEGIN
    -- Instância do componente words_adder e conexão dos sinais
    dut_adder : words_adder_dut PORT MAP(
       -- conexão dos pinos de entrada
-      i_A => w_A,
-      i_B => w_B,
+      i_A => x_A,
+      i_B => x_B,
       -- conexão dos pinos de saída
-      o_S => w_DUT_OUT
+      o_S => x_DUT_OUT
    );
    gm_adder : words_adder_gm PORT MAP(
       -- conexão dos pinos de entrada
-      i_A => w_A,
-      i_B => w_B,
+      i_A => x_A,
+      i_B => x_B,
       -- conexão dos pinos de saída
-      o_S => w_GM_OUT
+      o_S => x_GM_OUT
    );
 
    -- Processo para gerar os estímulos
@@ -85,13 +85,13 @@ BEGIN
 
       FOR i IN 0 TO 15 LOOP
          FOR j IN 0 TO 15 LOOP
-            IF (check_output_equality(w_DUT_OUT, w_GM_OUT) = FALSE) THEN
+            IF (check_output_equality(x_DUT_OUT, x_GM_OUT) = FALSE) THEN
                ASSERT FALSE REPORT "Sa�das dos componentes n�o coincidem" SEVERITY FAILURE;
                stop;
             END IF;
 
-            w_A <= STD_LOGIC_VECTOR(to_unsigned(i, 4));
-            w_B <= STD_LOGIC_VECTOR(to_unsigned(j, 4));
+            x_A <= STD_LOGIC_VECTOR(to_unsigned(i, 4));
+            x_B <= STD_LOGIC_VECTOR(to_unsigned(j, 4));
             WAIT FOR 500 ns;
          END LOOP;
       END LOOP;

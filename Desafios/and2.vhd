@@ -13,10 +13,11 @@ USE IEEE.std_logic_1164.ALL;
 -- Entity ( Entidade )
 -- pinos de entrada e saida
 ENTITY AND2 IS PORT (
-   i1 : IN STD_LOGIC;
-   i2 : IN STD_LOGIC;
-   clk: IN STD_LOGIC;
-   y  : OUT STD_LOGIC);
+   i1  : IN STD_LOGIC;
+   i2  : IN STD_LOGIC;
+   clk : IN STD_LOGIC;
+   y   : OUT STD_LOGIC
+);
 END AND2;
 -- Architecture ( Arquitetura ) i
 -- implementacoes do projeto

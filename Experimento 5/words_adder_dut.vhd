@@ -26,7 +26,7 @@ END ENTITY;
 -- ************ Architecture ************
 -- implementação do projeto
 ARCHITECTURE words_adder_dut_arch OF words_adder_dut IS
-   SIGNAL w_COUT_1, w_COUT_2, w_COUT_3 : STD_LOGIC;
+   SIGNAL x_COUT_1, x_COUT_2, x_COUT_3 : STD_LOGIC;
 
 BEGIN
    somador_1 : ENTITY work.somador_completo PORT MAP (
@@ -34,26 +34,26 @@ BEGIN
       B    => i_B(0),
       CIN  => '0',
       S    => o_S(0),
-      COUT => w_COUT_1
+      COUT => x_COUT_1
       );
    somador_2 : ENTITY work.somador_completo PORT MAP (
       A    => i_A(1),
       B    => i_B(1),
-      CIN  => w_COUT_1,
+      CIN  => x_COUT_1,
       S    => o_S(1),
-      COUT => w_COUT_2
+      COUT => x_COUT_2
       );
    somador_3 : ENTITY work.somador_completo PORT MAP (
       A    => i_A(2),
       B    => i_B(2),
-      CIN  => w_COUT_2,
+      CIN  => x_COUT_2,
       S    => o_S(2),
-      COUT => w_COUT_3
+      COUT => x_COUT_3
       );
    somador_4 : ENTITY work.somador_completo PORT MAP (
       A    => i_A(3),
       B    => i_B(3),
-      CIN  => w_COUT_3,
+      CIN  => x_COUT_3,
       S    => o_S(3),
       COUT => o_S(4)
       );

@@ -37,15 +37,15 @@ ARCHITECTURE tb_abc_to_xy OF abc_to_xy_testbench IS
    END COMPONENT;
 
    -- Sinais auxiliares para a simulação dos estí­mulos ao circuito
-   SIGNAL w_A_AUX, w_B_AUX, w_C_AUX : STD_LOGIC;
+   SIGNAL x_A_AUX, x_B_AUX, x_C_AUX : STD_LOGIC;
 
    -- Instância do componente abc_to_xy e conexão dos sinais
 BEGIN
    abc_circuit : abc_to_xy PORT MAP(
       -- conexão dos pinos de entrada
-      i_A => w_A_AUX,
-      i_B => w_B_AUX,
-      i_C => w_C_AUX,
+      i_A => x_A_AUX,
+      i_B => x_B_AUX,
+      i_C => x_C_AUX,
       -- conexão dos pinos de saída
       o_X => OPEN,
       o_Y => OPEN
@@ -54,44 +54,44 @@ BEGIN
    -- Processo para gerar os estÃ­íulos
    estimulo : PROCESS
    BEGIN
-      w_A_AUX <= '0';
-      w_B_AUX <= '0';
-      w_C_AUX <= '0';
+      x_A_AUX <= '0';
+      x_B_AUX <= '0';
+      x_C_AUX <= '0';
       WAIT FOR 10 ns;
 
-      w_A_AUX <= '0';
-      w_B_AUX <= '0';
-      w_C_AUX <= '1';
+      x_A_AUX <= '0';
+      x_B_AUX <= '0';
+      x_C_AUX <= '1';
       WAIT FOR 10 ns;
 
-      w_A_AUX <= '0';
-      w_B_AUX <= '1';
-      w_C_AUX <= '0';
+      x_A_AUX <= '0';
+      x_B_AUX <= '1';
+      x_C_AUX <= '0';
       WAIT FOR 10 ns;
 
-      w_A_AUX <= '0';
-      w_B_AUX <= '1';
-      w_C_AUX <= '1';
+      x_A_AUX <= '0';
+      x_B_AUX <= '1';
+      x_C_AUX <= '1';
       WAIT FOR 10 ns;
 
-      w_A_AUX <= '1';
-      w_B_AUX <= '0';
-      w_C_AUX <= '0';
+      x_A_AUX <= '1';
+      x_B_AUX <= '0';
+      x_C_AUX <= '0';
       WAIT FOR 10 ns;
 
-      w_A_AUX <= '1';
-      w_B_AUX <= '0';
-      w_C_AUX <= '1';
+      x_A_AUX <= '1';
+      x_B_AUX <= '0';
+      x_C_AUX <= '1';
       WAIT FOR 10 ns;
 
-      w_A_AUX <= '1';
-      w_B_AUX <= '1';
-      w_C_AUX <= '0';
+      x_A_AUX <= '1';
+      x_B_AUX <= '1';
+      x_C_AUX <= '0';
       WAIT FOR 10 ns;
 
-      w_A_AUX <= '1';
-      w_B_AUX <= '1';
-      w_C_AUX <= '1';
+      x_A_AUX <= '1';
+      x_B_AUX <= '1';
+      x_C_AUX <= '1';
       WAIT FOR 10 ns;
 
       WAIT;

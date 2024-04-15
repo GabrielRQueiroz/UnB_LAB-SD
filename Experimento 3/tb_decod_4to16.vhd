@@ -39,13 +39,13 @@ ARCHITECTURE tb_decod_4to16 OF decod_4to16_testbench IS
    END COMPONENT;
 
    -- Sinais auxiliares para a simulação dos estí­mulos ao circuito
-   SIGNAL w_A_AUX : STD_LOGIC_VECTOR(3 DOWNTO 0) := "0000";
+   SIGNAL x_A_AUX : STD_LOGIC_VECTOR(3 DOWNTO 0) := "0000";
 
    -- Instância do componente decod_4to16 e conexão dos sinais
 BEGIN
    decod : decod_4to16 PORT MAP(
       -- conexão dos pinos de entrada
-      i_A => w_A_AUX,
+      i_A => x_A_AUX,
       -- conexão dos pinos de saída
       o_Y => OPEN
    );
@@ -54,7 +54,7 @@ BEGIN
    estimulo : PROCESS
    BEGIN
       for i in 0 to 15 loop
-         w_A_AUX <= std_logic_vector(to_unsigned(i, 4));
+         x_A_AUX <= std_logic_vector(to_unsigned(i, 4));
          WAIT FOR 10 ns;
       end loop;
       WAIT;

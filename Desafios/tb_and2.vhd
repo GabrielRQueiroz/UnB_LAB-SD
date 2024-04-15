@@ -40,18 +40,12 @@ ARCHITECTURE tb_and2 OF testbench1 IS
 BEGIN
    and1 : AND2 PORT MAP(i1 => i_1, i2 => i_2, clk => clk, y => OPEN);
    -- Implementacao do processo de estimulo
+   clk <= NOT clk AFTER 5 ns;
+   i_2 <= NOT i_2 AFTER 5 ns;
+   i_1 <= NOT i_1 AFTER 10 ns;
    estimulo : PROCESS
    BEGIN
-      clk <= NOT clk AFTER 5 ns;
-      WAIT FOR 5 ns;
-      
-      FOR i IN 0 TO 6 LOOP
-
-
-         i_2 <= NOT i_2 AFTER 5 ns;
-
-         i_1 <= NOT i_1 AFTER 10 ns;
-
+      FOR i IN 0 TO 2 LOOP
          WAIT FOR 10 ns;
       END LOOP;
       WAIT;
