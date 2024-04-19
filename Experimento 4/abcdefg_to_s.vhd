@@ -28,6 +28,7 @@ END abcdefg_to_s;
 ARCHITECTURE abcdefg_to_s_arch OF abcdefg_to_s IS
 
    -- ConfiguraÃ§Ã£o das entradas de dados dos multiplexadores de X e de Y
+   -- Note que os sinais auxiliares abaixo são diferenciados dos sinais de entrada e saída pelo prefixo "x_"
    SIGNAL x_DATA_MULTIPLEX : STD_LOGIC_VECTOR(7 DOWNTO 0);
    SIGNAL x_SEL_MULTIPLEX  : STD_LOGIC_VECTOR(2 DOWNTO 0);
    SIGNAL x_SEL_DECODER    : STD_LOGIC_VECTOR(3 DOWNTO 0);

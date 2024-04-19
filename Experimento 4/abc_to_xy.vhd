@@ -28,6 +28,7 @@ END abc_to_xy;
 ARCHITECTURE abc_to_xy_arch OF abc_to_xy IS
 
     -- ConfiguraÃ§Ã£o das entradas de dados dos multiplexadores de X e de Y
+    -- Note que os sinais auxiliares abaixo são diferenciados dos sinais de entrada e saída pelo prefixo "x_"
     SIGNAL x_NOT_C  : STD_LOGIC;
     SIGNAL x_DATA_X : STD_LOGIC_VECTOR(3 DOWNTO 0);
     SIGNAL x_DATA_Y : STD_LOGIC_VECTOR(3 DOWNTO 0);
