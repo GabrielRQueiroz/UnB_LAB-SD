@@ -39,8 +39,8 @@ BEGIN
     -- Uma única porta inversora
     x_NOT_C <= NOT i_C;
 
-    x_DATA_X <= i_C & "0" & x_NOT_C & "1";
-    x_DATA_Y <= "1" & x_NOT_C & i_C & "0";
+    x_DATA_X <= "1" & x_NOT_C & i_C & "0";
+    x_DATA_Y <= i_C & "0" & x_NOT_C & "1";
     x_SEL    <= i_A & i_B;
 
     multiplex_for_X : ENTITY work.multiplex_4x1 PORT MAP(
