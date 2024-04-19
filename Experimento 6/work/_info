@@ -1,0 +1,175 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Eff_testbench
+Z0 w1713551400
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 61
+Z3 dE:/UnB/UnB_LAB-SD/Experimento 6
+Z4 8E:/UnB/UnB_LAB-SD/Experimento 6/tb_ff_jk.vhd
+Z5 FE:/UnB/UnB_LAB-SD/Experimento 6/tb_ff_jk.vhd
+l0
+L23 1
+VC@ObI7KPRPD48klIgz?A_1
+!s100 0N>e>]d>T4neF2NICSl?A2
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1713556810
+!i10b 1
+Z8 !s108 1713556810.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 6/tb_ff_jk.vhd|
+Z10 !s107 E:/UnB/UnB_LAB-SD/Experimento 6/tb_ff_jk.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Atb_flip_flop_jk
+R1
+R2
+DEx4 work 12 ff_testbench 0 22 C@ObI7KPRPD48klIgz?A_1
+!i122 61
+l44
+L28 38
+V7;;jaQ98o:7Gh^LP^5iX]1
+!s100 zgZ:Yl0giLJ[TQ`FN:Y`M1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eflip_flop_jk
+Z13 w1713550350
+R1
+R2
+!i122 60
+R3
+Z14 8E:/UnB/UnB_LAB-SD/Experimento 6/ff_jk.vhd
+Z15 FE:/UnB/UnB_LAB-SD/Experimento 6/ff_jk.vhd
+l0
+L19 1
+VR02SfJHD4A>zKTg@ZkPDA3
+!s100 @e8zJ_QJL?7TfaLCWF0Nj0
+R6
+32
+Z16 !s110 1713556809
+!i10b 1
+Z17 !s108 1713556809.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 6/ff_jk.vhd|
+Z19 !s107 E:/UnB/UnB_LAB-SD/Experimento 6/ff_jk.vhd|
+!i113 1
+R11
+R12
+Aflip_flop_jk_arch
+R1
+R2
+DEx4 work 12 flip_flop_jk 0 22 R02SfJHD4A>zKTg@ZkPDA3
+!i122 60
+l30
+L27 36
+V7Ed1dC5=N]`BI1XjYiClQ3
+!s100 _eBn6cilGZUcP:bU^;bmO3
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Eshift_reg_testbench
+Z20 w1713556804
+R1
+R2
+!i122 63
+R3
+Z21 8E:/UnB/UnB_LAB-SD/Experimento 6/tb_shift_reg.vhd
+Z22 FE:/UnB/UnB_LAB-SD/Experimento 6/tb_shift_reg.vhd
+l0
+L29 1
+V=cb?=5ooE8<?jYkPiz60=3
+!s100 ]XQ6Qf664SEmS[7AIi`7;2
+R6
+32
+Z23 !s110 1713556811
+!i10b 1
+Z24 !s108 1713556811.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 6/tb_shift_reg.vhd|
+Z26 !s107 E:/UnB/UnB_LAB-SD/Experimento 6/tb_shift_reg.vhd|
+!i113 1
+R11
+R12
+Atb_shift_reg
+R1
+R2
+Z27 DEx4 work 19 shift_reg_testbench 0 22 =cb?=5ooE8<?jYkPiz60=3
+!i122 63
+l51
+Z28 L34 43
+VLGXMOOP:`P]1S76enHI8P0
+!s100 CelNFX25Q[34?eSzX8KB62
+R6
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R11
+R12
+Eshift_register
+Z29 w1713552314
+R1
+R2
+!i122 62
+R3
+Z30 8E:/UnB/UnB_LAB-SD/Experimento 6/shift_reg.vhd
+Z31 FE:/UnB/UnB_LAB-SD/Experimento 6/shift_reg.vhd
+l0
+L25 1
+VeDYFAa1JKI=a_:2WkY<WK0
+!s100 7=UJG3Qm]VWF91TdA35[O0
+R6
+32
+R23
+!i10b 1
+R8
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 6/shift_reg.vhd|
+Z33 !s107 E:/UnB/UnB_LAB-SD/Experimento 6/shift_reg.vhd|
+!i113 1
+R11
+R12
+Ashift_register_arch
+R1
+R2
+DEx4 work 14 shift_register 0 22 eDYFAa1JKI=a_:2WkY<WK0
+!i122 62
+l37
+L34 32
+Vm4@_k>mobo`nYNlU<`L1l3
+!s100 Od4NUQh5gJ_NC^;9aiN6N1
+R6
+32
+R23
+!i10b 1
+R8
+R32
+R33
+!i113 1
+R11
+R12
