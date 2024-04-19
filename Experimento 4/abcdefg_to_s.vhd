@@ -3,8 +3,6 @@
 -- Autor: Gabriel Roberto de Queiroz
 -- Data: 26/04/2024
 
--- Cabeçalho com breve descrição
-
 -- ************
 -- Circuito: Entidade que recebe como entrada 7 bits de entrada e gera 1 bit de sa�da
 --         A, B, C, D, E, F, G    Bits de entrada

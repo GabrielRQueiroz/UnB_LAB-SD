@@ -1,9 +1,7 @@
 -- Universidade de Brasí­lia
 -- Laboratário de Sistemas Digitais
 -- Autor: Gabriel Roberto de Queiroz
--- Data: 26/04/2024
-
--- Cabeçalho com breve descrição
+-- Data: 26/04/202
 
 -- ************
 -- Circuito: Entidade que recebe como entrada três bits e tem como saída dois bits, determinados por dois multiplexadores 4x1:
