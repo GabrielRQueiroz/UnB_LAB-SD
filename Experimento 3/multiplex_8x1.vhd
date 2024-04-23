@@ -6,7 +6,7 @@
 -- ************
 -- Circuito: Multiplexador 8x1 com 8 bits de dados, 2 bits de seleção e uma saída:
 --          i_DATA  Entrada de 4 bits de dados
---          i_SEL   Entrada de 2 bits de seleÃ§Ã£o
+--          i_SEL   Entrada de 2 bits de seleção
 --          o_Y     Saída do mux
 -- ************
 

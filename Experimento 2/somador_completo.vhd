@@ -7,11 +7,11 @@
 
 -- ************
 -- Circuito: Somador completo de três entradas:
---          a    Entrada A de 1 bit
---          b    Entrada B de 1 bit
---          cin  Entrada de carry in (vai-um) de 1 bit
---          s    Saída da soma de 1 bit
---          cout Saída do carry out (vai-um) de 1 bit
+--          i_A    Entrada A de 1 bit
+--          i_B    Entrada B de 1 bit
+--          i_CIN  Entrada de carry in (vai-um) de 1 bit
+--          o_S    Saída da soma de 1 bit
+--          o_COUT Saída do carry out (vai-um) de 1 bit
 -- ************
 
 -- ************ Package ************
@@ -25,17 +25,17 @@ USE IEEE.std_logic_1164.ALL;
 
 ENTITY somador_completo IS
   PORT (
-    a, b, cin : IN STD_LOGIC;
-    s         : OUT STD_LOGIC;
-    cout      : OUT STD_LOGIC
+    i_A, i_B, i_CIN : IN STD_LOGIC;
+    o_S             : OUT STD_LOGIC;
+    o_COUT          : OUT STD_LOGIC
   );
 END somador_completo;
 
 -- ************ Architecture ************
--- implementação do projeto
+-- implementa��o do projeto
 
 ARCHITECTURE somador_arch OF somador_completo IS
 BEGIN
-  s    <= a XOR b XOR cin;
-  cout <= (a AND b) OR (cin AND A) OR (cin AND b);
+  o_S    <= i_A XOR i_B XOR i_CIN;
+  o_COUT <= (i_A AND i_B) OR (i_CIN AND i_A) OR (i_CIN AND i_B);
 END somador_ARCH;

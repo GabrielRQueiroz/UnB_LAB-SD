@@ -5,9 +5,9 @@
 
 -- ************
 -- Circuito: Multiplexador 4x1 com 4 bits de dados, 2 bits de seleção e uma saída:
---          data  Entrada de 4 bits de dados
---          sel   Entrada de 2 bits de seleÃ§Ã£o
---          y     Saída do mux
+--          i_DATA  Entrada de 4 bits de dados
+--          i_SEL   Entrada de 2 bits de seleção
+--          o_Y     Saída do mux
 -- ************
 
 -- ************ Package ************
@@ -20,9 +20,9 @@ USE IEEE.std_logic_1164.ALL;
 
 ENTITY multiplex_4x1 IS
   PORT (
-    data : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-    sel  : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
-    y    : OUT STD_LOGIC
+    i_DATA : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+    i_SEL  : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+    o_Y    : OUT STD_LOGIC
   );
 END multiplex_4x1;
 -- ************ Architecture ************
@@ -30,10 +30,10 @@ END multiplex_4x1;
 
 ARCHITECTURE multiplex_4x1_arch OF multiplex_4x1 IS
 BEGIN
-  WITH sel SELECT
-    y <= data(3) WHEN "11",
-    data(2) WHEN "10",
-    data(1) WHEN "01",
-    data(0) WHEN "00",
+  WITH i_SEL SELECT
+    o_Y <= i_DATA(3) WHEN "11",
+    i_DATA(2) WHEN "10",
+    i_DATA(1) WHEN "01",
+    i_DATA(0) WHEN "00",
     '0' WHEN OTHERS;
 END multiplex_4x1_arch;
