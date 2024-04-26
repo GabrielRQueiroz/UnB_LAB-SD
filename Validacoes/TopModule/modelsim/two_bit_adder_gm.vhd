@@ -29,5 +29,5 @@ END two_bit_adder_gm;
 -- implementação do projeto
 ARCHITECTURE two_bit_adder_gm_arch OF two_bit_adder_gm IS
 BEGIN
-   o_S <= "1" & (i_A) + (i_B);
+   o_S <= "0" & (i_A) + (i_B);
 END ARCHITECTURE;
