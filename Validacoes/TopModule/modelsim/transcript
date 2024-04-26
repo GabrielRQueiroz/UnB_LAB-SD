@@ -1,0 +1,1607 @@
+# Loading project TopModule
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd failed with 4 errors.
+# Compile of tb_two_bit_adder.vhd was successful with warnings.
+# 5 compiles, 1 failed with 4 errors.
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd failed with 4 errors.
+# Compile of tb_two_bit_adder.vhd was successful with warnings.
+# 5 compiles, 1 failed with 4 errors.
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of tb_two_bit_adder.vhd was successful with warnings.
+# Compile of two_bit_adder_top_module.vhd was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+vsim work.tb_two_bit_adder
+# vsim work.tb_two_bit_adder 
+# Start time: 11:02:50 on Apr 26,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_two_bit_adder(tb_two_bit_adder_arch)
+add wave -position insertpoint  \
+sim:/tb_two_bit_adder/o_GM_OUT \
+sim:/tb_two_bit_adder/o_DUT_OUT \
+sim:/tb_two_bit_adder/i_A \
+sim:/tb_two_bit_adder/i_B
+run 1000000000 ns
+# ** Note: Início do testbench
+#    Time: 0 ps  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Note: Fim do testbench
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+quit -sim
+# End time: 11:04:34 on Apr 26,2024, Elapsed time: 0:01:44
+# Errors: 0, Warnings: 43
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd was successful with warnings.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of tb_two_bit_adder.vhd was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+vsim work.tb_two_bit_adder
+# vsim work.tb_two_bit_adder 
+# Start time: 11:04:51 on Apr 26,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_two_bit_adder(tb_two_bit_adder_arch)
+add wave -position insertpoint  \
+sim:/tb_two_bit_adder/o_GM_OUT \
+sim:/tb_two_bit_adder/o_DUT_OUT \
+sim:/tb_two_bit_adder/i_A \
+sim:/tb_two_bit_adder/i_B
+run 1000 ns
+# ** Note: Início do testbench
+#    Time: 0 ps  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+run 1000 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+run 1000 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+run 1000 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+run 1000 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+run 1000 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+run 1000 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+run 1000 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Note: Fim do testbench
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+vsim work.two_bit_adder_top_module
+# End time: 11:05:41 on Apr 26,2024, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 35
+# vsim work.two_bit_adder_top_module 
+# Start time: 11:05:41 on Apr 26,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.two_bit_adder_top_module(words_adder_top_module)
+# Loading work.two_bit_adder_dut(two_bit_adder_dut_arch)
+# Loading work.somador_completo(somador_arch)
+# ** Warning: (vsim-3473) Component instance "U1 : two_bit_adder_gm" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /two_bit_adder_top_module File: /home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/two_bit_adder_top_module.vhd
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_two_bit_adder(tb_two_bit_adder_arch)
+# ** Fatal: (vsim-3817) Port "o_GM_OUT" of entity "tb_two_bit_adder" is not in the component being instantiated.
+#    Time: 0 ps  Iteration: 0  Instance: /two_bit_adder_top_module/U2 File: /home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/tb_two_bit_adder.vhd Line: 30
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 11:05:41 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd was successful with warnings.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of tb_two_bit_adder.vhd was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+vsim work.tb_two_bit_adder
+# vsim work.tb_two_bit_adder 
+# Start time: 11:06:31 on Apr 26,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_two_bit_adder(tb_two_bit_adder_arch)
+add wave -position insertpoint  \
+sim:/tb_two_bit_adder/o_GM_OUT \
+sim:/tb_two_bit_adder/o_DUT_OUT \
+sim:/tb_two_bit_adder/i_A \
+sim:/tb_two_bit_adder/i_B
+run 100000 ns
+# ** Note: Início do testbench
+#    Time: 0 ps  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Note: Fim do testbench
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+quit -sim
+# End time: 11:06:47 on Apr 26,2024, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 34
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd was successful with warnings.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of tb_two_bit_adder.vhd was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+vsim work.tb_two_bit_adder
+# vsim work.tb_two_bit_adder 
+# Start time: 11:07:26 on Apr 26,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_two_bit_adder(tb_two_bit_adder_arch)
+add wave -position insertpoint  \
+sim:/tb_two_bit_adder/o_GM \
+sim:/tb_two_bit_adder/o_DUT \
+sim:/tb_two_bit_adder/i_A \
+sim:/tb_two_bit_adder/i_B
+run 10000 ns
+# ** Note: Início do testbench
+#    Time: 0 ps  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Note: Fim do testbench
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+vsim work.two_bit_adder_top_module
+# End time: 11:07:54 on Apr 26,2024, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 36
+# vsim work.two_bit_adder_top_module 
+# Start time: 11:07:54 on Apr 26,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.two_bit_adder_top_module(words_adder_top_module)
+# Loading work.two_bit_adder_dut(two_bit_adder_dut_arch)
+# Loading work.somador_completo(somador_arch)
+# ** Warning: (vsim-3473) Component instance "U1 : two_bit_adder_gm" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /two_bit_adder_top_module File: /home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/two_bit_adder_top_module.vhd
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_two_bit_adder(tb_two_bit_adder_arch)
+add wave -position insertpoint  \
+sim:/two_bit_adder_top_module/x_A \
+sim:/two_bit_adder_top_module/x_B \
+sim:/two_bit_adder_top_module/x_DUT_OUT \
+sim:/two_bit_adder_top_module/x_GM_OUT
+run 100 ns
+# ** Note: Início do testbench
+#    Time: 0 ps  Iteration: 0  Instance: /two_bit_adder_top_module/U2
+vsim work.tb_two_bit_adder
+# End time: 11:09:24 on Apr 26,2024, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 2
+# vsim work.tb_two_bit_adder 
+# Start time: 11:09:24 on Apr 26,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_two_bit_adder(tb_two_bit_adder_arch)
+add wave -position insertpoint sim:/tb_two_bit_adder/line__42/*
+add wave -position insertpoint  \
+sim:/tb_two_bit_adder/o_GM \
+sim:/tb_two_bit_adder/o_DUT \
+sim:/tb_two_bit_adder/i_A \
+sim:/tb_two_bit_adder/i_B
+run 10000ns
+# ** Note: Início do testbench
+#    Time: 0 ps  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Note: Fim do testbench
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+quit -sim
+# End time: 11:12:18 on Apr 26,2024, Elapsed time: 0:02:54
+# Errors: 0, Warnings: 33
+# Load canceled
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of tb_two_bit_adder.vhd was successful with warnings.
+# Compile of two_bit_adder_top_module.vhd was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+vsim work.tb_two_bit_adder
+# vsim work.tb_two_bit_adder 
+# Start time: 11:12:42 on Apr 26,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_two_bit_adder(tb_two_bit_adder_arch)
+add wave -position insertpoint  \
+sim:/tb_two_bit_adder/o_GM \
+sim:/tb_two_bit_adder/o_DUT \
+sim:/tb_two_bit_adder/i_A \
+sim:/tb_two_bit_adder/i_B
+run 1000 ns
+# ** Note: Início do testbench
+#    Time: 0 ps  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+quit -sim
+# End time: 11:15:43 on Apr 26,2024, Elapsed time: 0:03:01
+# Errors: 0, Warnings: 7
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd was successful with warnings.
+# Compile of tb_two_bit_adder.vhd was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+vsim work.tb_two_bit_adder
+# vsim work.tb_two_bit_adder 
+# Start time: 11:16:22 on Apr 26,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_two_bit_adder(tb_two_bit_adder_arch)
+add wave -position insertpoint  \
+sim:/tb_two_bit_adder/o_GM \
+sim:/tb_two_bit_adder/o_DUT \
+sim:/tb_two_bit_adder/i_A \
+sim:/tb_two_bit_adder/i_B
+run 10000 ns
+# ** Note: Início do testbench
+#    Time: 0 ps  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Note: Fim do testbench
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+quit -sim
+# End time: 11:18:59 on Apr 26,2024, Elapsed time: 0:02:37
+# Errors: 0, Warnings: 38
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd was successful with warnings.
+# Compile of tb_two_bit_adder.vhd failed with 3 errors.
+# 5 compiles, 1 failed with 3 errors.
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd was successful with warnings.
+# Compile of tb_two_bit_adder.vhd was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+vsim work.tb_two_bit_adder
+# vsim work.tb_two_bit_adder 
+# Start time: 11:19:36 on Apr 26,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_two_bit_adder(tb_two_bit_adder_arch)
+run 10000 ns
+# ** Note: Início do testbench
+#    Time: 0 ps  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Note: Fim do testbench
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position insertpoint  \
+sim:/tb_two_bit_adder/x_DUT_OUT \
+sim:/tb_two_bit_adder/x_GM_OUT \
+sim:/tb_two_bit_adder/x_A \
+sim:/tb_two_bit_adder/x_B
+run 10000 ns
+# ** Note: Início do testbench
+#    Time: 0 ps  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Note: Fim do testbench
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+quit -sim
+# End time: 11:22:21 on Apr 26,2024, Elapsed time: 0:02:45
+# Errors: 0, Warnings: 33
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd was successful with warnings.
+# Compile of tb_two_bit_adder.vhd was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+vsim work.tb_two_bit_adder
+# vsim work.tb_two_bit_adder 
+# Start time: 11:22:30 on Apr 26,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_two_bit_adder(tb_two_bit_adder_arch)
+add wave -position insertpoint  \
+sim:/tb_two_bit_adder/x_DUT_OUT \
+sim:/tb_two_bit_adder/x_GM_OUT \
+sim:/tb_two_bit_adder/x_A \
+sim:/tb_two_bit_adder/x_B
+run 10000 ns
+# ** Note: Início do testbench
+#    Time: 0 ps  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Note: Fim do testbench
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+quit -sim
+# End time: 11:22:59 on Apr 26,2024, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 34
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd was successful with warnings.
+# Compile of tb_two_bit_adder.vhd was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+vsim work.tb_two_bit_adder
+# vsim work.tb_two_bit_adder 
+# Start time: 11:23:09 on Apr 26,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_two_bit_adder(tb_two_bit_adder_arch)
+add wave -position insertpoint  \
+sim:/tb_two_bit_adder/x_DUT_OUT \
+sim:/tb_two_bit_adder/x_GM_OUT \
+sim:/tb_two_bit_adder/x_A \
+sim:/tb_two_bit_adder/x_B
+run 10000 ns
+# ** Note: Início do testbench
+#    Time: 0 ps  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Note: Fim do testbench
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+quit -sim
+# End time: 11:27:13 on Apr 26,2024, Elapsed time: 0:04:04
+# Errors: 0, Warnings: 34
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd was successful with warnings.
+# Compile of tb_two_bit_adder.vhd was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+vsim work.tb_two_bit_adder
+# vsim work.tb_two_bit_adder 
+# Start time: 11:27:20 on Apr 26,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_two_bit_adder(tb_two_bit_adder_arch)
+add wave -position insertpoint  \
+sim:/tb_two_bit_adder/i_DUT_OUT \
+sim:/tb_two_bit_adder/i_GM_OUT \
+sim:/tb_two_bit_adder/o_A \
+sim:/tb_two_bit_adder/o_B
+run 10000 ns
+# ** Note: Início do testbench
+#    Time: 0 ps  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Note: Fim do testbench
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+add wave -position insertpoint sim:/tb_two_bit_adder/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Note: Início do testbench
+#    Time: 0 ps  Iteration: 0  Instance: /tb_two_bit_adder
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Note: Fim do testbench
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+quit -sim
+# End time: 11:37:35 on Apr 26,2024, Elapsed time: 0:10:15
+# Errors: 0, Warnings: 33
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd was successful with warnings.
+# Compile of tb_two_bit_adder.vhd was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd was successful.
+# Compile of tb_two_bit_adder.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.tb_two_bit_adder
+# vsim work.tb_two_bit_adder 
+# Start time: 11:38:39 on Apr 26,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_two_bit_adder(tb_two_bit_adder_arch)
+add wave -position insertpoint  \
+sim:/tb_two_bit_adder/i_DUT_OUT \
+sim:/tb_two_bit_adder/i_GM_OUT \
+sim:/tb_two_bit_adder/o_A \
+sim:/tb_two_bit_adder/o_B
+run -all
+# ** Note: Início do testbench
+#    Time: 0 ps  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Note: Fim do testbench
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+quit -sim
+# End time: 11:39:10 on Apr 26,2024, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 35
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd was successful.
+# Compile of tb_two_bit_adder.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.tb_two_bit_adder
+# vsim work.tb_two_bit_adder 
+# Start time: 11:39:19 on Apr 26,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_two_bit_adder(tb_two_bit_adder_arch)
+add wave -position insertpoint  \
+sim:/tb_two_bit_adder/i_DUT_OUT \
+sim:/tb_two_bit_adder/i_GM_OUT \
+sim:/tb_two_bit_adder/o_A \
+sim:/tb_two_bit_adder/o_B
+run -all
+# ** Note: Início do testbench
+#    Time: 0 ps  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Note: Fim do testbench
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+quit -sim
+# End time: 11:43:52 on Apr 26,2024, Elapsed time: 0:04:33
+# Errors: 0, Warnings: 34
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd was successful.
+# Compile of tb_two_bit_adder.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.tb_two_bit_adder
+# vsim work.tb_two_bit_adder 
+# Start time: 11:44:00 on Apr 26,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_two_bit_adder(tb_two_bit_adder_arch)
+# Loading work.two_bit_adder_dut(two_bit_adder_dut_arch)
+# Loading work.somador_completo(somador_arch)
+add wave -position insertpoint sim:/tb_two_bit_adder/two_bit_adder/*
+run 10000 ns
+quit -sim
+# End time: 11:46:33 on Apr 26,2024, Elapsed time: 0:02:33
+# Errors: 0, Warnings: 2
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd was successful.
+# Compile of tb_two_bit_adder.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.tb_two_bit_adder
+# vsim work.tb_two_bit_adder 
+# Start time: 11:46:43 on Apr 26,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_two_bit_adder(tb_two_bit_adder_arch)
+add wave -position insertpoint  \
+sim:/tb_two_bit_adder/i_DUT_OUT \
+sim:/tb_two_bit_adder/i_GM_OUT \
+sim:/tb_two_bit_adder/o_A \
+sim:/tb_two_bit_adder/o_B
+run 10000 ns
+# ** Note: Início do testbench
+#    Time: 0 ps  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Note: Fim do testbench
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+quit -sim
+# End time: 11:48:43 on Apr 26,2024, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 34
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd was successful.
+# Compile of tb_two_bit_adder.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.tb_two_bit_adder
+# vsim work.tb_two_bit_adder 
+# Start time: 11:48:52 on Apr 26,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_two_bit_adder(tb_two_bit_adder_arch)
+add wave -position insertpoint  \
+sim:/tb_two_bit_adder/x_DUT_OUT \
+sim:/tb_two_bit_adder/x_GM_OUT \
+sim:/tb_two_bit_adder/x_A \
+sim:/tb_two_bit_adder/x_B
+run 10000 ns
+# ** Note: Início do testbench
+#    Time: 0 ps  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ns  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+# ** Note: Fim do testbench
+#    Time: 8 us  Iteration: 0  Instance: /tb_two_bit_adder
+quit -sim
+# End time: 11:52:17 on Apr 26,2024, Elapsed time: 0:03:25
+# Errors: 0, Warnings: 34
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd was successful.
+# Compile of tb_two_bit_adder.vhd failed with 2 errors.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd was successful.
+# Compile of tb_two_bit_adder.vhd failed with 2 errors.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd was successful.
+# Compile of tb_two_bit_adder.vhd failed with 2 errors.
+# 5 compiles, 1 failed with 2 errors.

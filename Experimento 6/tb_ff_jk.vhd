@@ -40,7 +40,7 @@ ARCHITECTURE tb_flip_flop_jk OF ff_testbench IS
    SIGNAL x_CLK, x_J, x_K : STD_LOGIC := '0';
    SIGNAL x_PR, x_CLR     : STD_LOGIC := '1';
 
-   -- Instância do componente flip_flop_JK e conexão dos sinais
+   -- Inst�nciaa do componente flip_flop_JK e conexão dos sinais
 BEGIN
    flip_flop : flip_flop_JK PORT MAP(
       -- conexão dos pinos de entrada

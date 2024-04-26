@@ -47,7 +47,7 @@ ARCHITECTURE tb_shift_reg OF shift_reg_testbench IS
    SIGNAL x_CLK, x_RST, x_LOAD, x_DIR, x_L, x_R : STD_LOGIC                    := '0';
    SIGNAL x_D, x_Q                              : STD_LOGIC_VECTOR(3 DOWNTO 0) := "0000";
 
-   -- Instância do componente shift_register e conexão dos sinais
+   -- Inst�nciaa do componente shift_register e conexão dos sinais
 BEGIN
    shift_reg : shift_register PORT MAP(
       -- conexão dos pinos de entrada

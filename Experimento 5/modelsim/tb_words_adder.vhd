@@ -24,12 +24,7 @@ USE std.env.stop;
 
 -- Testbench para words_adder.vhd
 -- Validação assíncrona
-ENTITY words_adder_testbench IS
-   port (
-      words_adder_dut, words_adder_gm : in std_logic;
-      f: out std_logic
-   );
-END;
+ENTITY words_adder_testbench IS END;
 
 -- ************ Architecture ************
 -- implementação do projeto
@@ -68,7 +63,7 @@ ARCHITECTURE tb_words_adder OF words_adder_testbench IS
    END FUNCTION check_output_equality;
 
 BEGIN
-   -- Instância do componente words_adder e conexão dos sinais
+   -- Instância do coInstÃ¢nciwords_adder e conexão dos sinais
    dut_adder : words_adder_dut PORT MAP(
       -- conexão dos pinos de entrada
       i_A => x_A,
