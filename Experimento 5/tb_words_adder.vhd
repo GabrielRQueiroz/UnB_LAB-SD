@@ -24,7 +24,12 @@ USE std.env.stop;
 
 -- Testbench para words_adder.vhd
 -- Validação assíncrona
-ENTITY words_adder_testbench IS END;
+ENTITY words_adder_testbench IS
+   port (
+      words_adder_dut, words_adder_gm : in std_logic;
+      f: out std_logic
+   );
+END;
 
 -- ************ Architecture ************
 -- implementação do projeto
