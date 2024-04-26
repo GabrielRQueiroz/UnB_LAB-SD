@@ -38,7 +38,7 @@ ARCHITECTURE tb_ OF testbench IS
    -- Sinais auxiliares para a simulação dos estímulos ao circuito
    SIGNAL a_ : STD_LOGIC;
 
-   -- Instância do componente <circ> e conexão dos sinais
+   -- Inst�nciaa do componente <circ> e conexão dos sinais
 BEGIN
    circ_ : circ PORT MAP(
       -- conexão dos pinos de entrada

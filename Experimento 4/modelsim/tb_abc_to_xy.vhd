@@ -18,7 +18,7 @@ USE std.textio.ALL;
 USE IEEE.numeric_std.ALL;
 
 -- ************ Entity ************
--- testbench: uma entidade sem pinos de entrada e saÃƒÂ­da
+-- testbench: uma entidade sem pinos de entrada e saídada
 
 -- Testbench para abc_to_xy.vhd
 -- Validação assÃ­ncrona
@@ -39,7 +39,7 @@ ARCHITECTURE tb_abc_to_xy OF abc_to_xy_testbench IS
    -- Sinais auxiliares para a simulação dos estÃ­Â­mulos ao circuito
    SIGNAL x_A_AUX, x_B_AUX, x_C_AUX : STD_LOGIC;
 
-   -- InstÃ¢ncia do componente abc_to_xy e conexão dos sinais
+   -- Instânciaa do componente abc_to_xy e conexão dos sinais
 BEGIN
    abc_circuit : abc_to_xy PORT MAP(
       -- conexão dos pinos de entrada

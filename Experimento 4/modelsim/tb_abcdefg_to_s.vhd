@@ -18,7 +18,7 @@ USE std.textio.ALL;
 USE IEEE.numeric_std.ALL;
 
 -- ************ Entity ************
--- testbench: uma entidade sem pinos de entrada e saÃƒÂ­da
+-- testbench: uma entidade sem pinos de entrada e saídada
 
 -- Testbench para abcdefg_to_s.vhd
 -- Validação assÃ­ncrona
@@ -40,7 +40,7 @@ ARCHITECTURE tb_abcdefg_to_s OF abcdefg_to_s_testbench IS
    SIGNAL x_A_AUX, x_B_AUX, x_C_AUX, x_D_AUX, x_E_AUX, x_F_AUX, x_G_AUX : STD_LOGIC;
    SIGNAL x_INPUT_VECTOR                                                : STD_LOGIC_VECTOR(6 DOWNTO 0) := "0000000";
 
-   -- InstÃ¢ncia do componente abcdefg_to_s e conexão dos sinais
+   -- Instânciaa do componente abcdefg_to_s e conexão dos sinais
 BEGIN
    abcdefg_circuit : abcdefg_to_s PORT MAP(
       -- Conexão dos pinos de entrada
