@@ -10,24 +10,24 @@ z2
 cModel Technology
 d/home/coffee/UnB/UnB_LAB-SD
 Esomador_completo
-Z0 w1714138764
+Z0 w1714167455
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 105
-Z3 d/home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim
-Z4 8/home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/somador_completo.vhd
-Z5 F/home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/somador_completo.vhd
+!i122 140
+Z3 dE:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim
+Z4 8E:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/somador_completo.vhd
+Z5 FE:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/somador_completo.vhd
 l0
 Z6 L26 1
 VVH;@l<M6m00z>UYa:WbX:1
 !s100 ?g35HGXJG@GV<^;X6a`G81
 Z7 OV;C;2020.1;71
 32
-Z8 !s110 1714143275
+Z8 !s110 1714169036
 !i10b 1
-Z9 !s108 1714143275.000000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/somador_completo.vhd|
-Z11 !s107 /home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/somador_completo.vhd|
+Z9 !s108 1714169036.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/somador_completo.vhd|
+Z11 !s107 E:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/somador_completo.vhd|
 !i113 1
 Z12 o-work work -2002 -explicit
 Z13 tExplicit 1 CvgOpt 0
@@ -35,7 +35,7 @@ Asomador_arch
 R1
 R2
 DEx4 work 16 somador_completo 0 22 VH;@l<M6m00z>UYa:WbX:1
-!i122 105
+!i122 140
 l38
 L37 5
 V:X^C1RY@Q4m^Qh?<`05II2
@@ -51,79 +51,77 @@ R11
 R12
 R13
 Etb_two_bit_adder
-Z14 w1714143272
-Z15 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-Z16 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z17 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z14 w1714168596
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z16 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 R1
 R2
-!i122 109
+!i122 143
 R3
-Z18 8/home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/tb_two_bit_adder.vhd
-Z19 F/home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/tb_two_bit_adder.vhd
+Z17 8E:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/tb_two_bit_adder.vhd
+Z18 FE:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/tb_two_bit_adder.vhd
 l0
-R6
-V@LFT3KIiW7eeJiZ^ZDF`V3
-!s100 <Sb4Ah>9iV2BZf<S76Q;S3
+L24 1
+Vgo6^m`3M:Y9]mPa25>JcV1
+!s100 KDd?7g[P7Y[6_XLbiPdBH3
 R7
 32
 R8
 !i10b 1
 R9
-Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/tb_two_bit_adder.vhd|
-Z21 !s107 /home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/tb_two_bit_adder.vhd|
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/tb_two_bit_adder.vhd|
+Z20 !s107 E:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/tb_two_bit_adder.vhd|
 !i113 1
 R12
 R13
 Atb_two_bit_adder_arch
 R15
 R16
-R17
 R1
 R2
-DEx4 work 16 tb_two_bit_adder 0 22 ZDXUhZkeiX7S=N=OFGNeO3
-!i122 94
-l39
-L38 22
-V0i^>Io72L=?egQa8fHfOC3
-!s100 J4B]J?449V<1k_J7N<:e`3
-R7
-32
-!s110 1714142926
-!i10b 1
-!s108 1714142926.000000
-R20
-R21
-!i113 1
-R12
-R13
-Etwo_bit_adder_dut
-Z22 w1714142437
-R1
-R2
-!i122 106
-R3
-Z23 8/home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/two_bit_adder_dut.vhd
-Z24 F/home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/two_bit_adder_dut.vhd
-l0
-L19 1
-V7LT@d76[SQH0z[75nk?:B1
-!s100 @6Zi4PZ3DUobNXODAAmP@3
+DEx4 work 16 tb_two_bit_adder 0 22 go6^m`3M:Y9]mPa25>JcV1
+!i122 143
+l37
+L36 22
+VfKlVA=g@UMO_kQ72S4dKD1
+!s100 b3BW3EnHE2dzGb[<Rlf6<1
 R7
 32
 R8
 !i10b 1
 R9
-Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/two_bit_adder_dut.vhd|
-Z26 !s107 /home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/two_bit_adder_dut.vhd|
+R19
+R20
+!i113 1
+R12
+R13
+Etwo_bit_adder_dut
+Z21 w1714167737
+R1
+R2
+!i122 141
+R3
+Z22 8E:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/two_bit_adder_dut.vhd
+Z23 FE:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/two_bit_adder_dut.vhd
+l0
+L19 1
+VX674Mg>3dBJLe7ZFMhXGb2
+!s100 MP8ShTd2iEUMJSHMTXfW:2
+R7
+32
+R8
+!i10b 1
+R9
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/two_bit_adder_dut.vhd|
+Z25 !s107 E:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/two_bit_adder_dut.vhd|
 !i113 1
 R12
 R13
 Atwo_bit_adder_dut_arch
 R1
 R2
-DEx4 work 17 two_bit_adder_dut 0 22 7LT@d76[SQH0z[75nk?:B1
-!i122 106
+DEx4 work 17 two_bit_adder_dut 0 22 X674Mg>3dBJLe7ZFMhXGb2
+!i122 141
 l41
 L28 29
 VCDTI`_14NQVKP3>n80Ce33
@@ -133,141 +131,141 @@ R7
 R8
 !i10b 1
 R9
+R24
 R25
-R26
 !i113 1
 R12
 R13
 Etwo_bit_adder_gm
-Z27 w1714142428
-R17
+Z26 w1714168998
 R16
+R15
 R1
 R2
-!i122 107
+!i122 142
 R3
-Z28 8/home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/two_bit_adder_gm.vhd
-Z29 F/home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/two_bit_adder_gm.vhd
+Z27 8E:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/two_bit_adder_gm.vhd
+Z28 FE:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/two_bit_adder_gm.vhd
 l0
-Z30 L21 1
-VhI2]b@U]dILhebP[SY]cM3
-!s100 KVFX[j2oJVV_aF[Fb2;J<1
+Z29 L21 1
+VL_S:3dloFP`A?:hSZOfLc2
+!s100 UcgC51E8JD:c<c;2`NI8>2
 R7
 32
 R8
 !i10b 1
 R9
-Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/two_bit_adder_gm.vhd|
-Z32 !s107 /home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/two_bit_adder_gm.vhd|
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/two_bit_adder_gm.vhd|
+Z31 !s107 E:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/two_bit_adder_gm.vhd|
 !i113 1
 R12
 R13
 Atwo_bit_adder_gm_arch
-R17
 R16
+R15
 R1
 R2
-DEx4 work 16 two_bit_adder_gm 0 22 hI2]b@U]dILhebP[SY]cM3
-!i122 107
+DEx4 work 16 two_bit_adder_gm 0 22 L_S:3dloFP`A?:hSZOfLc2
+!i122 142
 l31
-Z33 L30 4
-V0`@ECOlzBJSY2zF8TDPV]3
-!s100 i4U364jECbiSBiZcfL?Sa0
+Z32 L30 4
+VZ?M=>KFIEoZc9_@D9oehm1
+!s100 NXI97=ibi4^ZbAIHg4V^h1
 R7
 32
 R8
 !i10b 1
 R9
+R30
 R31
-R32
 !i113 1
 R12
 R13
 Etwo_bit_adder_top_module
-Z34 w1714143202
-R15
+Z33 w1714168736
+Z34 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R1
 R2
-!i122 108
+!i122 144
 R3
-Z35 8/home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/two_bit_adder_top_module.vhd
-Z36 F/home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/two_bit_adder_top_module.vhd
+Z35 8E:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/two_bit_adder_top_module.vhd
+Z36 FE:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/two_bit_adder_top_module.vhd
 l0
 R6
 V^1d5O8jbl4E0z0[<bQeVW3
 !s100 7>4H`HgdIC;T9QeFU68=a0
 R7
 32
-R8
+Z37 !s110 1714169037
 !i10b 1
-R9
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/two_bit_adder_top_module.vhd|
-Z38 !s107 /home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/two_bit_adder_top_module.vhd|
+Z38 !s108 1714169037.000000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/two_bit_adder_top_module.vhd|
+!s107 E:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/two_bit_adder_top_module.vhd|
 !i113 1
 R12
 R13
 Awords_adder_top_module
-R15
+R34
 R1
 R2
-DEx4 work 24 two_bit_adder_top_module 0 22 ^1d5O8jbl4E0z0[<bQeVW3
-!i122 108
+Z40 DEx4 work 24 two_bit_adder_top_module 0 22 ^1d5O8jbl4E0z0[<bQeVW3
+!i122 144
 l64
-L31 43
-V3Ge]Qh;?42lX4TO@`K`G53
-!s100 bWWXoPjN`65KAI[dgJGF:0
+Z41 L31 53
+Z42 VPzH>=ifEdbnE0VX<aFMgj1
+Z43 !s100 N:C[?a?eLV=adlEVB2?>]2
 R7
 32
-R8
-!i10b 1
-R9
 R37
+!i10b 1
 R38
+R39
+Z44 !s107 E:/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim/two_bit_adder_top_module.vhd|
 !i113 1
 R12
 R13
 Ewords_adder_gm
-Z39 w1714138729
-R17
+Z45 w1714138729
 R16
+R15
 R1
 R2
 !i122 77
-R3
-R28
-R29
+Z46 d/home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/modelsim
+Z47 8/home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/two_bit_adder_gm.vhd
+Z48 F/home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/two_bit_adder_gm.vhd
 l0
-R30
+R29
 V:?h5Y=2ZRFiYR;UL6jb:K2
 !s100 mNVTA=U9JI975bD1ghjCJ1
 R7
 32
-Z40 !s110 1714142352
+Z49 !s110 1714142352
 !i10b 1
-Z41 !s108 1714142351.000000
-R31
-R32
+Z50 !s108 1714142351.000000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/two_bit_adder_gm.vhd|
+Z52 !s107 /home/coffee/UnB/UnB_LAB-SD/Validacoes/TopModule/two_bit_adder_gm.vhd|
 !i113 1
 R12
 R13
 Awords_adder_gm_arch
-R17
 R16
+R15
 R1
 R2
 DEx4 work 14 words_adder_gm 0 22 :?h5Y=2ZRFiYR;UL6jb:K2
 !i122 77
 l31
-R33
+R32
 VD0Vf;FT77@g:oeS[1_oTn2
 !s100 ASO;aM9C?8jlU3>Ql09;?0
 R7
 32
-R40
+R49
 !i10b 1
-R41
-R31
-R32
+R50
+R51
+R52
 !i113 1
 R12
 R13
