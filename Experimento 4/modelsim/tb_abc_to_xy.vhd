@@ -5,9 +5,9 @@
 
 -- ************
 -- Testbench para a simulação do
--- Circuito: Entidade que recebe como entrada trÃªs bits e tem como saÃ­da dois bits, determinados por dois multiplexadores 4x1:
+-- Circuito: Entidade que recebe como entrada trÃªs bits e tem como saída dois bits, determinados por dois multiplexadores 4x1:
 --       i_A, i_B, i_C   3 bits de entrada
---       o_X, o_Y      2 bits de saÃ­da
+--       o_X, o_Y      2 bits de saída
 -- ************
 
 -- ************ Package ************
@@ -18,10 +18,10 @@ USE std.textio.ALL;
 USE IEEE.numeric_std.ALL;
 
 -- ************ Entity ************
--- testbench: uma entidade sem pinos de entrada e saÃƒÂ­da
+-- testbench: uma entidade sem pinos de entrada e saída
 
 -- Testbench para abc_to_xy.vhd
--- Validação assÃ­ncrona
+-- Validação assíncrona
 ENTITY abc_to_xy_testbench IS END;
 
 -- ************ Architecture ************
@@ -36,22 +36,22 @@ ARCHITECTURE tb_abc_to_xy OF abc_to_xy_testbench IS
       );
    END COMPONENT;
 
-   -- Sinais auxiliares para a simulação dos estÃ­Â­mulos ao circuito
+   -- Sinais auxiliares para a simulação dos estímulos ao circuito
    SIGNAL x_A_AUX, x_B_AUX, x_C_AUX : STD_LOGIC;
 
-   -- InstÃ¢ncia do componente abc_to_xy e conexão dos sinais
+   -- Instância do componente abc_to_xy e conexão dos sinais
 BEGIN
    abc_circuit : abc_to_xy PORT MAP(
       -- conexão dos pinos de entrada
       i_A => x_A_AUX,
       i_B => x_B_AUX,
       i_C => x_C_AUX,
-      -- conexão dos pinos de saÃ­da
+      -- conexão dos pinos de saída
       o_X => OPEN,
       o_Y => OPEN
    );
 
-   -- Processo para gerar os estÃƒÂ­Ã­ulos
+   -- Processo para gerar os estímulos
    estimulo : PROCESS
    BEGIN
       x_A_AUX <= '0';

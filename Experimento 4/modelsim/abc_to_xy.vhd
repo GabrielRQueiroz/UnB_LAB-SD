@@ -4,9 +4,9 @@
 -- Data: 26/04/202
 
 -- ************
--- Circuito: Entidade que recebe como entrada trÃªs bits e tem como saÃ­da dois bits, determinados por dois multiplexadores 4x1:
+-- Circuito: Entidade que recebe como entrada três bits e tem como saída dois bits, determinados por dois multiplexadores 4x1:
 --       i_A, i_B, i_C   3 bits de entrada
---       o_X, o_Y      2 bits de saÃ­da
+--       o_X, o_Y        2 bits de saída
 -- ************
 
 -- ************ Package ************

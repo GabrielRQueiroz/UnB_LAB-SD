@@ -1,5 +1,5 @@
 -- Universidade de Brasília
--- LaboratÃ³rio de Sistemas Digitais
+-- Laboratório de Sistemas Digitais
 -- Autor: Gabriel Roberto de Queiroz
 -- Data: 26/04/2024
 
@@ -18,10 +18,10 @@ USE std.textio.ALL;
 USE IEEE.numeric_std.ALL;
 
 -- ************ Entity ************
--- testbench: uma entidade sem pinos de entrada e saÃƒÂ­da
+-- testbench: uma entidade sem pinos de entrada e saída
 
 -- Testbench para abcdefg_to_s.vhd
--- Validação assÃ­ncrona
+-- Validação assíncrona
 ENTITY abcdefg_to_s_testbench IS END;
 
 -- ************ Architecture ************
@@ -36,11 +36,11 @@ ARCHITECTURE tb_abcdefg_to_s OF abcdefg_to_s_testbench IS
       );
    END COMPONENT;
 
-   -- Sinais auxiliares para a simulação dos estÃ­Â­mulos ao circuito
+   -- Sinais auxiliares para a simulação dos estímulos ao circuito
    SIGNAL x_A_AUX, x_B_AUX, x_C_AUX, x_D_AUX, x_E_AUX, x_F_AUX, x_G_AUX : STD_LOGIC;
    SIGNAL x_INPUT_VECTOR                                                : STD_LOGIC_VECTOR(6 DOWNTO 0) := "0000000";
 
-   -- InstÃ¢ncia do componente abcdefg_to_s e conexão dos sinais
+   -- Instância do componente abcdefg_to_s e conexão dos sinais
 BEGIN
    abcdefg_circuit : abcdefg_to_s PORT MAP(
       -- Conexão dos pinos de entrada
@@ -51,11 +51,11 @@ BEGIN
       i_E => x_E_AUX,
       i_F => x_F_AUX,
       i_G => x_G_AUX,
-      -- Conexão dos pinos de saÃ­da
+      -- Conexão dos pinos de saída
       o_S => OPEN
    );
 
-   -- Processo para gerar os estÃƒÂ­Ã­ulos
+   -- Processo para gerar os estímulos
    estimulo : PROCESS
    BEGIN
       FOR i IN 0 TO 127 LOOP
