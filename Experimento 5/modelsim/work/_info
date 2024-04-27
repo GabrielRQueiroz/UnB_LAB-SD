@@ -10,174 +10,268 @@ z2
 cModel Technology
 d/home/coffee/UnB/UnB_LAB-SD
 Esomador_completo
-Z0 w1714136980
+Z0 w1713822483
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 12
-Z3 d/home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim
-Z4 8/home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim/somador_completo.vhd
-Z5 F/home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim/somador_completo.vhd
+!i122 30
+Z3 dE:/UnB/UnB_LAB-SD/Experimento 5/modelsim
+Z4 8E:/UnB/UnB_LAB-SD/Experimento 5/modelsim/somador_completo.vhd
+Z5 FE:/UnB/UnB_LAB-SD/Experimento 5/modelsim/somador_completo.vhd
 l0
-L26 1
+Z6 L26 1
 VVH;@l<M6m00z>UYa:WbX:1
 !s100 ?g35HGXJG@GV<^;X6a`G81
-Z6 OV;C;2020.1;71
+Z7 OV;C;2020.1;71
 32
-Z7 !s110 1714137971
+Z8 !s110 1714178537
 !i10b 1
-Z8 !s108 1714137971.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim/somador_completo.vhd|
-Z10 !s107 /home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim/somador_completo.vhd|
+Z9 !s108 1714178537.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 5/modelsim/somador_completo.vhd|
+Z11 !s107 E:/UnB/UnB_LAB-SD/Experimento 5/modelsim/somador_completo.vhd|
 !i113 1
-Z11 o-work work -2002 -explicit
-Z12 tExplicit 1 CvgOpt 0
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
 Asomador_arch
 R1
 R2
 DEx4 work 16 somador_completo 0 22 VH;@l<M6m00z>UYa:WbX:1
-!i122 12
+!i122 30
 l38
 L37 5
 V:X^C1RY@Q4m^Qh?<`05II2
 !s100 ?66MKGg5^a?`IFod:gCDm2
-R6
-32
 R7
-!i10b 1
+32
 R8
+!i10b 1
 R9
 R10
-!i113 1
 R11
+!i113 1
 R12
-Ewords_adder_dut
-Z13 w1714137726
+R13
+Etb_words_adder
+Z14 w1714178503
+Z15 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z16 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z17 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R1
 R2
-!i122 14
+!i122 34
 R3
-Z14 8/home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim/words_adder_dut.vhd
-Z15 F/home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim/words_adder_dut.vhd
+Z18 8E:/UnB/UnB_LAB-SD/Experimento 5/modelsim/tb_words_adder.vhd
+Z19 FE:/UnB/UnB_LAB-SD/Experimento 5/modelsim/tb_words_adder.vhd
+l0
+Z20 L27 1
+VOL@R1`zf;TSVfHWACjAcb0
+!s100 7EK9Z]M;L=809zaf<ajW81
+R7
+32
+Z21 !s110 1714178538
+!i10b 1
+Z22 !s108 1714178538.000000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 5/modelsim/tb_words_adder.vhd|
+Z24 !s107 E:/UnB/UnB_LAB-SD/Experimento 5/modelsim/tb_words_adder.vhd|
+!i113 1
+R12
+R13
+Atb_words_adder_arch
+R15
+R16
+R17
+R1
+R2
+Z25 DEx4 work 14 tb_words_adder 0 22 OL@R1`zf;TSVfHWACjAcb0
+!i122 34
+l39
+Z26 L37 23
+VU_AJV=gg09N:VooIKUKX@1
+!s100 N=<hZ9S]N2:3mC67h^Q`M1
+R7
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R12
+R13
+Ewords_adder_dut
+Z27 w1714167455
+R1
+R2
+!i122 31
+R3
+Z28 8E:/UnB/UnB_LAB-SD/Experimento 5/modelsim/words_adder_dut.vhd
+Z29 FE:/UnB/UnB_LAB-SD/Experimento 5/modelsim/words_adder_dut.vhd
 l0
 L19 1
 V_E;6neB7i2S31eILFZ`Ll3
 !s100 8dBlVY>IGEZ@f1`oje0_01
-R6
+R7
 32
-Z16 !s110 1714137972
+R21
 !i10b 1
-Z17 !s108 1714137972.000000
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim/words_adder_dut.vhd|
-Z19 !s107 /home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim/words_adder_dut.vhd|
+R9
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 5/modelsim/words_adder_dut.vhd|
+Z31 !s107 E:/UnB/UnB_LAB-SD/Experimento 5/modelsim/words_adder_dut.vhd|
 !i113 1
-R11
 R12
+R13
 Awords_adder_dut_arch
 R1
 R2
 DEx4 work 15 words_adder_dut 0 22 _E;6neB7i2S31eILFZ`Ll3
-!i122 14
+!i122 31
 l41
 L28 44
 VkCzYPH_3H7lhD4`?IMb5d0
 !s100 K6JgSJlKk:X;H38zXSfoS3
-R6
+R7
 32
-R16
+R21
 !i10b 1
-R17
-R18
-R19
+R9
+R30
+R31
 !i113 1
-R11
 R12
+R13
 Ewords_adder_gm
-Z20 w1714137562
-Z21 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z22 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R27
+R16
+R17
 R1
 R2
-!i122 13
+!i122 32
 R3
-Z23 8/home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim/words_adder_gm.vhd
-Z24 F/home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim/words_adder_gm.vhd
+Z32 8E:/UnB/UnB_LAB-SD/Experimento 5/modelsim/words_adder_gm.vhd
+Z33 FE:/UnB/UnB_LAB-SD/Experimento 5/modelsim/words_adder_gm.vhd
 l0
 L21 1
 VK[JLQi9`=@iRJNU=l?0zR0
 !s100 9S8mB:M0[6d8O4[aDYKHL3
-R6
-32
 R7
-!i10b 1
-R8
-Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim/words_adder_gm.vhd|
-Z26 !s107 /home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim/words_adder_gm.vhd|
-!i113 1
-R11
-R12
-Awords_adder_gm_arch
+32
 R21
+!i10b 1
 R22
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 5/modelsim/words_adder_gm.vhd|
+Z35 !s107 E:/UnB/UnB_LAB-SD/Experimento 5/modelsim/words_adder_gm.vhd|
+!i113 1
+R12
+R13
+Awords_adder_gm_arch
+R16
+R17
 R1
 R2
 DEx4 work 14 words_adder_gm 0 22 K[JLQi9`=@iRJNU=l?0zR0
-!i122 13
+!i122 32
 l31
 L30 4
 VD0Vf;FT77@g:oeS[1_oTn2
 !s100 ASO;aM9C?8jlU3>Ql09;?0
-R6
-32
 R7
-!i10b 1
-R8
-R25
-R26
-!i113 1
-R11
-R12
-Ewords_adder_testbench
-Z27 w1714137948
-Z28 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
-Z29 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-R1
-R2
-!i122 15
-R3
-Z30 8/home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim/tb_words_adder.vhd
-Z31 F/home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim/tb_words_adder.vhd
-l0
-L27 1
-Vf]UWQDM@ii7JaFfU6`GiK1
-!s100 cD`>>0OlKZeIcFI9m<^;L3
-R6
 32
-R16
+R21
 !i10b 1
-R17
-Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim/tb_words_adder.vhd|
-Z33 !s107 /home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim/tb_words_adder.vhd|
+R22
+R34
+R35
 !i113 1
-R11
 R12
-Atb_words_adder
-R28
-R29
+R13
+Ewords_adder_testbench
+Z36 w1714177737
+R15
+R16
+R17
 R1
 R2
-Z34 DEx4 work 21 words_adder_testbench 0 22 f]UWQDM@ii7JaFfU6`GiK1
+!i122 23
+R3
+R18
+R19
+l0
+R20
+VbAUL@VHz:B5a7^6JA7<iG2
+!s100 @3D1:A><_`UkjJS?VaL0R1
+R7
+32
+!s110 1714178300
+!i10b 1
+!s108 1714178299.000000
+R23
+R24
+!i113 1
+R12
+R13
+Atb_words_adder
+DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+R15
+R1
+R2
+DEx4 work 21 words_adder_testbench 0 22 f]UWQDM@ii7JaFfU6`GiK1
 !i122 15
 l65
-Z35 L32 70
+L32 70
 VgimkFJ6DD4GL1MXSVgGV^2
 !s100 fa7I`j=SoI;5iD<W4IXO>0
-R6
+R7
 32
-R16
+!s110 1714137972
 !i10b 1
-R17
-R32
-R33
+!s108 1714137972.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim/tb_words_adder.vhd|
+!s107 /home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim/tb_words_adder.vhd|
 !i113 1
-R11
 R12
+R13
+d/home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim
+F/home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim/tb_words_adder.vhd
+8/home/coffee/UnB/UnB_LAB-SD/Experimento 5/modelsim/tb_words_adder.vhd
+Ewords_adder_top_module
+Z37 w1714177468
+R15
+R1
+R2
+!i122 33
+R3
+Z38 8E:/UnB/UnB_LAB-SD/Experimento 5/modelsim/words_adder_top_module.vhd
+Z39 FE:/UnB/UnB_LAB-SD/Experimento 5/modelsim/words_adder_top_module.vhd
+l0
+R6
+VTac8lecg>79JD5U6Xd5Kf3
+!s100 [hi_2@]YL8RlWCNmZZGoX3
+R7
+32
+R21
+!i10b 1
+R22
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 5/modelsim/words_adder_top_module.vhd|
+Z41 !s107 E:/UnB/UnB_LAB-SD/Experimento 5/modelsim/words_adder_top_module.vhd|
+!i113 1
+R12
+R13
+Awords_adder_top_module_arch
+R15
+R1
+R2
+DEx4 work 22 words_adder_top_module 0 22 Tac8lecg>79JD5U6Xd5Kf3
+!i122 33
+l64
+L31 53
+VD@d?QD@1WFKaP1R<IJ;A?1
+!s100 jHMz8@UE8JT^VQC^6:k^50
+R7
+32
+R21
+!i10b 1
+R22
+R40
+R41
+!i113 1
+R12
+R13

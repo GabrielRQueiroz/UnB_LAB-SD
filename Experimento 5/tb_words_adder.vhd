@@ -14,93 +14,46 @@
 -- ************ Package ************
 -- constantes e bibliotecas
 LIBRARY IEEE;
-USE IEEE.std_logic_1164.ALL;
-USE std.textio.ALL;
-USE IEEE.numeric_std.ALL;
-USE std.env.stop;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE ieee.STD_LOGIC_UNSIGNED.ALL;
+USE IEEE.NUMERIC_STD.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
 
 -- ************ Entity ************
 -- testbench: uma entidade sem pinos de entrada e saída
 
 -- Testbench para words_adder.vhd
 -- Validação assíncrona
-ENTITY words_adder_testbench IS
-   port (
-      words_adder_dut, words_adder_gm : in std_logic;
-      f: out std_logic
+ENTITY tb_words_adder IS
+   PORT (
+      o_DUT, o_GM : IN STD_LOGIC_VECTOR(4 DOWNTO 0);
+      i_A, i_B    : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
    );
 END;
 
 -- ************ Architecture ************
 -- implementação do projeto
 
-ARCHITECTURE tb_words_adder OF words_adder_testbench IS
-   -- declaração do componente words_adder de acordo com sua arquitetura no arquivo words_adder.vhd
-   COMPONENT words_adder_dut
-      PORT (
-         -- declaração dos pinos de entrada
-         i_A, i_B : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-         -- declaração dos pinos de saída
-         o_S : OUT STD_LOGIC_VECTOR(4 DOWNTO 0)
-      );
-   END COMPONENT;
-
-   COMPONENT words_adder_gm
-      PORT (
-         -- declaração dos pinos de entrada
-         i_A, i_B : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-         -- declaração dos pinos de saída
-         o_S : OUT STD_LOGIC_VECTOR(4 DOWNTO 0)
-      );
-   END COMPONENT;
-
-   -- Sinais auxiliares para a simulação dos estímulos ao circuito
-   SIGNAL x_A, x_B            : STD_LOGIC_VECTOR(3 DOWNTO 0);
-   SIGNAL x_DUT_OUT, x_GM_OUT : STD_LOGIC_VECTOR(4 DOWNTO 0);
-
-   FUNCTION check_output_equality(a, b : STD_LOGIC_VECTOR(4 DOWNTO 0)) RETURN BOOLEAN IS
-   BEGIN
-      IF (a = b) THEN
-         RETURN TRUE;
-      ELSE
-         RETURN FALSE;
-      END IF;
-   END FUNCTION check_output_equality;
+ARCHITECTURE tb_words_adder_arch OF tb_words_adder IS
 
 BEGIN
-   -- Instância do componente words_adder e conexão dos sinais
-   dut_adder : words_adder_dut PORT MAP(
-      -- conexão dos pinos de entrada
-      i_A => x_A,
-      i_B => x_B,
-      -- conexão dos pinos de saída
-      o_S => x_DUT_OUT
-   );
-   gm_adder : words_adder_gm PORT MAP(
-      -- conexão dos pinos de entrada
-      i_A => x_A,
-      i_B => x_B,
-      -- conexão dos pinos de saída
-      o_S => x_GM_OUT
-   );
-
-   -- Processo para gerar os estímulos
-   estimulo : PROCESS
+   PROCESS
+      VARIABLE contbin : STD_LOGIC_VECTOR(7 DOWNTO 0);
    BEGIN
+      REPORT "Início do testbench" SEVERITY NOTE;
+      contbin := "00000000";
+      FOR i IN 0 TO 256 LOOP
+         i_A <= contbin(3) & contbin(2) & contbin(1) & contbin(0);
+         i_B <= contbin(7) & contbin(6) & contbin(5) & contbin(4);
+         WAIT FOR 500 ns;
 
-      FOR i IN 0 TO 15 LOOP
-         FOR j IN 0 TO 15 LOOP
-            IF (check_output_equality(x_DUT_OUT, x_GM_OUT) = FALSE) THEN
-               ASSERT FALSE REPORT "Saídas dos componentes não coincidem" SEVERITY FAILURE;
-               stop;
-            END IF;
+         ASSERT (o_GM = o_DUT) REPORT "Erro na soma i = " & INTEGER'image(i) SEVERITY ERROR;
 
-            x_A <= STD_LOGIC_VECTOR(to_unsigned(i, 4));
-            x_B <= STD_LOGIC_VECTOR(to_unsigned(j, 4));
-            WAIT FOR 500 ns;
-         END LOOP;
+         contbin := contbin + 1;
       END LOOP;
 
+      REPORT "Fim do testbench" SEVERITY NOTE;
+
       WAIT;
-   END PROCESS estimulo;
-END tb_words_adder;
+   END PROCESS;
+END tb_words_adder_arch;
