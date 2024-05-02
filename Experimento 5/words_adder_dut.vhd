@@ -39,6 +39,7 @@ ARCHITECTURE words_adder_dut_arch OF words_adder_dut IS
    SIGNAL x_COUT_1, x_COUT_2, x_COUT_3 : STD_LOGIC;
 
 BEGIN
+   -- Instâncias dos somadores completos
    somador_1 : somador_completo PORT MAP(
       i_A    => i_A(0),
       i_B    => i_B(0),
@@ -49,21 +50,21 @@ BEGIN
    somador_2 : somador_completo PORT MAP(
       i_A    => i_A(1),
       i_B    => i_B(1),
-      i_CIN  => x_COUT_1,
+      i_CIN  => x_COUT_1, -- conexão em cascata entre os somadores (n-ésimo cout é entrada do n-ésimo - 1 somador)
       o_S    => o_S(1),
       o_COUT => x_COUT_2
    );
    somador_3 : somador_completo PORT MAP(
       i_A    => i_A(2),
       i_B    => i_B(2),
-      i_CIN  => x_COUT_2,
+      i_CIN  => x_COUT_2, -- conexão em cascata entre os somadores (n-ésimo cout é entrada do n-ésimo - 1 somador)
       o_S    => o_S(2),
       o_COUT => x_COUT_3
    );
    somador_4 : somador_completo PORT MAP(
       i_A    => i_A(3),
       i_B    => i_B(3),
-      i_CIN  => x_COUT_3,
+      i_CIN  => x_COUT_3, -- conexão em cascata entre os somadores (n-ésimo cout é entrada do n-ésimo - 1 somador)
       o_S    => o_S(3),
       o_COUT => o_S(4)
    );
