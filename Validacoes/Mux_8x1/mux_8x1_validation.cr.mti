@@ -1,0 +1,34 @@
+/home/coffee/UnB/UnB_LAB-SD/Validacoes/Mux_8x1/multiplex_8x1_top_module.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/coffee/UnB/UnB_LAB-SD/Validacoes/Mux_8x1/multiplex_8x1_top_module.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity multiplex_8x1_top_module
+-- Compiling architecture mutiplex_8x1_top_module_arch of multiplex_8x1_top_module
+
+} {} {}} /home/coffee/UnB/UnB_LAB-SD/Validacoes/Mux_8x1/multiplex_8x1_gm.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/coffee/UnB/UnB_LAB-SD/Validacoes/Mux_8x1/multiplex_8x1_gm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity multiplex_8x1_gm
+-- Compiling architecture multiplex_8x1_gm_arch of multiplex_8x1_gm
+
+} {} {}} /home/coffee/UnB/UnB_LAB-SD/Validacoes/Mux_8x1/multiplex_8x1_dut.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/coffee/UnB/UnB_LAB-SD/Validacoes/Mux_8x1/multiplex_8x1_dut.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity multiplex_8x1_dut
+-- Compiling architecture multiplex_8x1_dut_arch of multiplex_8x1_dut
+
+} {} {}} /home/coffee/UnB/UnB_LAB-SD/Validacoes/Mux_8x1/multiplex_4x1.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/coffee/UnB/UnB_LAB-SD/Validacoes/Mux_8x1/multiplex_4x1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity multiplex_4x1
+-- Compiling architecture multiplex_4x1_arch of multiplex_4x1
+
+} {} {}}

@@ -1605,3 +1605,9 @@ quit -sim
 # Compile of two_bit_adder_top_module.vhd was successful.
 # Compile of tb_two_bit_adder.vhd failed with 2 errors.
 # 5 compiles, 1 failed with 2 errors.
+# Compile of somador_completo.vhd was successful.
+# Compile of two_bit_adder_dut.vhd was successful.
+# Compile of two_bit_adder_gm.vhd was successful.
+# Compile of two_bit_adder_top_module.vhd was successful.
+# Compile of tb_two_bit_adder.vhd was successful.
+# 5 compiles, 0 failed with no errors.
