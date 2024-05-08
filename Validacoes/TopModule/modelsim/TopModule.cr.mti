@@ -44,3 +44,4 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling architecture tb_two_bit_adder_arch of tb_two_bit_adder
 
 } {} {}}
+} {} {}}

@@ -133,6 +133,7 @@ R8
 R9
 R26
 R27
+R27
 !i113 1
 R12
 R13
@@ -169,6 +170,7 @@ DEx4 work 16 two_bit_adder_gm 0 22 L_S:3dloFP`A?:hSZOfLc2
 !i122 147
 l31
 Z34 L30 4
+Z34 L30 4
 V0`@ECOlzBJSY2zF8TDPV]3
 !s100 i4U364jECbiSBiZcfL?Sa0
 R7
@@ -177,6 +179,7 @@ R19
 !i10b 1
 R9
 R32
+R33
 R33
 !i113 1
 R12
@@ -256,6 +259,7 @@ R2
 DEx4 work 14 words_adder_gm 0 22 :?h5Y=2ZRFiYR;UL6jb:K2
 !i122 77
 l31
+R34
 R34
 VD0Vf;FT77@g:oeS[1_oTn2
 !s100 ASO;aM9C?8jlU3>Ql09;?0
