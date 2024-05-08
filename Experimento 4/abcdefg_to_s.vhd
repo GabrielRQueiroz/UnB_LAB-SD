@@ -76,7 +76,7 @@ BEGIN
       & "1"
       & x_DECODER_OUTPUT(7)
       & (x_DECODER_OUTPUT(15) OR x_DECODER_OUTPUT(0))
-      & x_DECODER_OUTPUT(15);
+      & "0";
 
    --  Componente do multiplexador 8 para 1 do experimento nº 3
    multiplex : multiplex_8x1 PORT MAP(
