@@ -1,9 +1,9 @@
--- Universidade de BrasÃ­lia
--- LaboratÃ³rio de Sistemas Digitais
+-- Universidade de Brasí­lia
+-- Laboratório de Sistemas Digitais
 -- Autor: Gabriel Roberto de Queiroz
 -- Data: 
 
--- CabeÃ§alho com breve descriÃ§Ã£o
+-- Cabeçaalho com breve descriçaão
 
 -- ************
 -- Circuito:
@@ -12,14 +12,10 @@
 
 -- ************ Package ************
 -- constantes e bibliotecas
-library IEEE;
-use IEEE.std_logic_1164.all;
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
 
 -- ************ Entity ************
--- pinos de entrada e saÃ­da
-
-
+-- pinos de entrada e saída
 -- ************ Architecture ************
--- implementaÃ§Ã£o do projeto
-
-
+-- implementaçaão do projeto

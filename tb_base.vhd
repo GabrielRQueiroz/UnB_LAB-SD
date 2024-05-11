@@ -1,9 +1,9 @@
--- Universidade de Bras√≠lia
--- Laborat√≥rio de Sistemas Digitais
+-- Universidade de BrasÌ≠lia
+-- LaboratÛrio de Sistemas Digitais
 -- Autor: Gabriel Roberto de Queiroz
 -- Data: 
 
--- Cabe√ßalho com breve descri√ß√£o
+-- CabeÁalho com breve descriÁ„o
 
 -- ************
 -- Circuito:
@@ -17,35 +17,35 @@ USE IEEE.std_logic_1164.ALL;
 USE std.textio.ALL;
 
 -- ************ Entity ************
--- testbench: uma entidade sem pinos de entrada e sa√≠da
+-- testbench: uma entidade sem pinos de entrada e saÌ≠da
 
 -- Testbench para <circ>.vhd
--- Valida√ß√£o ass√≠ncrona
+-- ValidaÁ„o assÌ≠ncrona
 ENTITY testbench IS END;
 
 -- ************ Architecture ************
--- implementa√ß√£o do projeto
+-- implementaÁ„o do projeto
 
 ARCHITECTURE tb_ OF testbench IS
-   -- declara√ß√£o do componente <circ> de acordo com sua arquitetura no arquivo <circ>.vhd
+   -- declaraÁ„o do componente <circ> de acordo com sua arquitetura no arquivo <circ>.vhd
    COMPONENT circ
       PORT (
-         -- declara√ß√£o dos pinos de entrada
-         -- declara√ß√£o dos pinos de sa√≠da
+         -- declaraÁ„o dos pinos de entrada
+         -- declaraÁ„o dos pinos de saÌ≠da
       );
    END COMPONENT;
 
-   -- Sinais auxiliares para a simula√ß√£o dos est√≠mulos ao circuito
+   -- Sinais auxiliares para a simulaÁ„o dos estÌ≠mulos ao circuito
    SIGNAL a_ : STD_LOGIC;
 
-   -- Inst‚nciaa do componente <circ> e conex√£o dos sinais
+   -- Inst‚nciaa do componente <circ> e conex„o dos sinais
 BEGIN
    circ_ : circ PORT MAP(
-      -- conex√£o dos pinos de entrada
-      -- conex√£o dos pinos de sa√≠da
+      -- conex„o dos pinos de entrada
+      -- conex„o dos pinos de saÌ≠da
    );
 
-   -- Processo para gerar os est√≠mulos
+   -- Processo para gerar os estÌ≠mulos
    estimulo : PROCESS
    BEGIN
       WAIT FOR 10 ns;
