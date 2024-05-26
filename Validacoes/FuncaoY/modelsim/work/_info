@@ -1,0 +1,177 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/coffee/UnB/UnB_LAB-SD/Experimento 6/modelsim
+Edecod_4to16
+Z0 w1716559550
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 32
+Z3 d/home/coffee/UnB/UnB_LAB-SD/Validacoes/FuncaoY/modelsim
+Z4 8/home/coffee/UnB/UnB_LAB-SD/Validacoes/FuncaoY/modelsim/decod_4to16.vhd
+Z5 F/home/coffee/UnB/UnB_LAB-SD/Validacoes/FuncaoY/modelsim/decod_4to16.vhd
+l0
+L20 1
+VnJbkal>:4^CE9^B7]DmKM3
+!s100 iEP1ZDjF<PAMETmJi<Ij32
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1716561526
+!i10b 1
+Z8 !s108 1716561526.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Validacoes/FuncaoY/modelsim/decod_4to16.vhd|
+Z10 !s107 /home/coffee/UnB/UnB_LAB-SD/Validacoes/FuncaoY/modelsim/decod_4to16.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Adecod_4to16_arch
+R1
+R2
+DEx4 work 11 decod_4to16 0 22 nJbkal>:4^CE9^B7]DmKM3
+!i122 32
+l30
+L29 20
+VbG7<3GJn`1C]WfzPS:<L?2
+!s100 Ao^=:HG@lCFNF=_9[dZPN3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efuncao_y
+Z13 w1716561446
+R1
+R2
+!i122 35
+R3
+Z14 8/home/coffee/UnB/UnB_LAB-SD/Validacoes/FuncaoY/modelsim/funcao_y.vhd
+Z15 F/home/coffee/UnB/UnB_LAB-SD/Validacoes/FuncaoY/modelsim/funcao_y.vhd
+l0
+L8 1
+Va]N3K2n=D:N2cX0DXJoA33
+!s100 0UYYgM_2J=NFo<AzC2kV23
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Validacoes/FuncaoY/modelsim/funcao_y.vhd|
+Z17 !s107 /home/coffee/UnB/UnB_LAB-SD/Validacoes/FuncaoY/modelsim/funcao_y.vhd|
+!i113 1
+R11
+R12
+Afuncao_y_arch
+R1
+R2
+Z18 DEx4 work 8 funcao_y 0 22 a]N3K2n=D:N2cX0DXJoA33
+!i122 35
+l40
+L17 50
+VIUUmF`BXaHfKfTzE@>eMU2
+!s100 D>>Gc@C>3B[JAb=e>hVB72
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Efuncao_y_testbench
+Z19 w1716560912
+Z20 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+!i122 34
+R3
+Z21 8/home/coffee/UnB/UnB_LAB-SD/Validacoes/FuncaoY/modelsim/funcão_y_tb.vhd
+Z22 F/home/coffee/UnB/UnB_LAB-SD/Validacoes/FuncaoY/modelsim/funcão_y_tb.vhd
+l0
+L25 1
+V;0TU;E9;P::h@75WeXT;C2
+!s100 VjM^JagBHma]MffioMj[h3
+R6
+32
+R7
+!i10b 1
+R8
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Validacoes/FuncaoY/modelsim/funcão_y_tb.vhd|
+Z24 !s107 /home/coffee/UnB/UnB_LAB-SD/Validacoes/FuncaoY/modelsim/funcão_y_tb.vhd|
+!i113 1
+R11
+R12
+Atb_funcao_y
+R20
+R1
+R2
+DEx4 work 18 funcao_y_testbench 0 22 ;0TU;E9;P::h@75WeXT;C2
+!i122 34
+l43
+L30 70
+VU:a_P8oQQ;AH@U7_1<`U02
+!s100 NjcJZ;cTz2Oz8V4>6mLJ:3
+R6
+32
+R7
+!i10b 1
+R8
+R23
+R24
+!i113 1
+R11
+R12
+Emultiplex_4x1
+Z25 w1716559558
+R1
+R2
+!i122 33
+R3
+Z26 8/home/coffee/UnB/UnB_LAB-SD/Validacoes/FuncaoY/modelsim/multiplex_4x1.vhd
+Z27 F/home/coffee/UnB/UnB_LAB-SD/Validacoes/FuncaoY/modelsim/multiplex_4x1.vhd
+l0
+L21 1
+VZe;OlL@LM[5K^cJ?Y26`F3
+!s100 OnLi1ghT52>UozAFM7=6c3
+R6
+32
+R7
+!i10b 1
+R8
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Validacoes/FuncaoY/modelsim/multiplex_4x1.vhd|
+Z29 !s107 /home/coffee/UnB/UnB_LAB-SD/Validacoes/FuncaoY/modelsim/multiplex_4x1.vhd|
+!i113 1
+R11
+R12
+Amultiplex_4x1_arch
+R1
+R2
+DEx4 work 13 multiplex_4x1 0 22 Ze;OlL@LM[5K^cJ?Y26`F3
+!i122 33
+l32
+L31 9
+V1UWT5DOI>dic8SON9daRN3
+!s100 nWJnl91K=1moDC@Li9_IG0
+R6
+32
+R7
+!i10b 1
+R8
+R28
+R29
+!i113 1
+R11
+R12
