@@ -1,0 +1,175 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/coffee/UnB/UnB_LAB-SD/Experimento 6
+Eff_testbench
+Z0 w1716556369
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 16
+Z3 d/home/coffee/UnB/UnB_LAB-SD/Experimento 6/modelsim
+Z4 8/home/coffee/UnB/UnB_LAB-SD/Experimento 6/modelsim/tb_ff_jk.vhd
+Z5 F/home/coffee/UnB/UnB_LAB-SD/Experimento 6/modelsim/tb_ff_jk.vhd
+l0
+L23 1
+VC@ObI7KPRPD48klIgz?A_1
+!s100 0N>e>]d>T4neF2NICSl?A2
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1716558654
+!i10b 1
+Z8 !s108 1716558654.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Experimento 6/modelsim/tb_ff_jk.vhd|
+Z10 !s107 /home/coffee/UnB/UnB_LAB-SD/Experimento 6/modelsim/tb_ff_jk.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Atb_flip_flop_jk
+R1
+R2
+DEx4 work 12 ff_testbench 0 22 C@ObI7KPRPD48klIgz?A_1
+!i122 16
+l44
+L28 38
+VMe`?ZW6f4<eAbQm`R_OX>2
+!s100 QjT1anSh8OcDMlT3lAR3l2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eflip_flop_jk
+Z13 w1716558387
+R1
+R2
+!i122 18
+R3
+Z14 8/home/coffee/UnB/UnB_LAB-SD/Experimento 6/modelsim/ff_jk.vhd
+Z15 F/home/coffee/UnB/UnB_LAB-SD/Experimento 6/modelsim/ff_jk.vhd
+l0
+L19 1
+V1aIaNhUOjD=JRLVbT;Ql^1
+!s100 GZVH6H0C1:V>iCAbnl=lA3
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Experimento 6/modelsim/ff_jk.vhd|
+Z17 !s107 /home/coffee/UnB/UnB_LAB-SD/Experimento 6/modelsim/ff_jk.vhd|
+!i113 1
+R11
+R12
+Aflip_flop_jk_arch
+R1
+R2
+DEx4 work 12 flip_flop_jk 0 22 1aIaNhUOjD=JRLVbT;Ql^1
+!i122 18
+l31
+L27 30
+V[:P@QzKX;Sk;0ZkN`4BHz0
+!s100 9h6TWhi7e1z31TXA_`6hb1
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Eshift_reg_testbench
+Z18 w1716556437
+R1
+R2
+!i122 17
+R3
+Z19 8/home/coffee/UnB/UnB_LAB-SD/Experimento 6/modelsim/tb_shift_reg.vhd
+Z20 F/home/coffee/UnB/UnB_LAB-SD/Experimento 6/modelsim/tb_shift_reg.vhd
+l0
+L29 1
+V=cb?=5ooE8<?jYkPiz60=3
+!s100 ]XQ6Qf664SEmS[7AIi`7;2
+R6
+32
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Experimento 6/modelsim/tb_shift_reg.vhd|
+Z22 !s107 /home/coffee/UnB/UnB_LAB-SD/Experimento 6/modelsim/tb_shift_reg.vhd|
+!i113 1
+R11
+R12
+Atb_shift_reg
+R1
+R2
+DEx4 work 19 shift_reg_testbench 0 22 =cb?=5ooE8<?jYkPiz60=3
+!i122 17
+l51
+L34 43
+VLGXMOOP:`P]1S76enHI8P0
+!s100 CelNFX25Q[34?eSzX8KB62
+R6
+32
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12
+Eshift_register
+Z23 w1716558613
+R1
+R2
+!i122 19
+R3
+Z24 8/home/coffee/UnB/UnB_LAB-SD/Experimento 6/modelsim/shift_reg.vhd
+Z25 F/home/coffee/UnB/UnB_LAB-SD/Experimento 6/modelsim/shift_reg.vhd
+l0
+L25 1
+VeDYFAa1JKI=a_:2WkY<WK0
+!s100 7=UJG3Qm]VWF91TdA35[O0
+R6
+32
+R7
+!i10b 1
+R8
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Experimento 6/modelsim/shift_reg.vhd|
+Z27 !s107 /home/coffee/UnB/UnB_LAB-SD/Experimento 6/modelsim/shift_reg.vhd|
+!i113 1
+R11
+R12
+Ashift_register_arch
+R1
+R2
+Z28 DEx4 work 14 shift_register 0 22 eDYFAa1JKI=a_:2WkY<WK0
+!i122 19
+l37
+L34 27
+V6Em>aEhZIN`foJkljnL@k1
+!s100 cGMXoc;AJGHBOU;PiJB1Y1
+R6
+32
+R7
+!i10b 1
+R8
+R26
+R27
+!i113 1
+R11
+R12

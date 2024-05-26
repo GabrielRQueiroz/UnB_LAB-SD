@@ -46,10 +46,10 @@ BEGIN
          ELSIF (i_LOAD = '1') THEN
             s_Q <= i_D;
          ELSE
-            IF (i_DIR = '0') THEN
-               s_Q <= s_Q(2 DOWNTO 0) & i_L;
-            ELSIF (i_DIR = '1') THEN
+            IF (i_DIR = '1') THEN
                s_Q <= i_R & s_Q(3 DOWNTO 1);
+            ELSE
+               s_Q <= s_Q(2 DOWNTO 0) & i_L;
             END IF;
          END IF;
 
