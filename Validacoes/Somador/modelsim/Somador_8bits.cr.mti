@@ -1,0 +1,22 @@
+E:/UnB/UnB_LAB-SD/Validacoes/Somador/modelsim/somador_8bits.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/UnB/UnB_LAB-SD/Validacoes/Somador/modelsim/somador_8bits.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity eight_bit_adder
+-- Compiling architecture eight_bit_adder_arch of eight_bit_adder
+
+} {} {}} E:/UnB/UnB_LAB-SD/Validacoes/Somador/modelsim/tb_somador_8bits.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/UnB/UnB_LAB-SD/Validacoes/Somador/modelsim/tb_somador_8bits.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity somador_testbench
+-- Compiling architecture tb_eight_bits_adder of somador_testbench
+
+} {} {}}
