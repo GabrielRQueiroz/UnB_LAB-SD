@@ -24,22 +24,12 @@ USE IEEE.STD_LOGIC_ARITH.ALL;
 
 -- Testbench para words_adder.vhd
 -- Validação assíncrona
-ENTITY tb_contadores IS
-   PORT (
-      clock  : IN STD_LOGIC;
-      reset  : IN STD_LOGIC;
-      enable : IN STD_LOGIC;
-      rci    : IN STD_LOGIC;
-      load   : IN STD_LOGIC;
-      D      : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-      Q      : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
-      rco    : OUT STD_LOGIC);
-END;
+ENTITY tb_visto1 IS END;
 
 -- ************ Architecture ************
 -- implementação do projeto
 
-ARCHITECTURE tb_contadores_arch OF tb_contadores IS
+ARCHITECTURE tb_visto1_arch OF tb_visto1 IS
    COMPONENT contador10 IS
       PORT (
          clock  : IN STD_LOGIC;
@@ -109,4 +99,4 @@ BEGIN
       x_LOAD <= '0';
    END PROCESS;
 
-END tb_contadores_arch;
+END tb_visto1_arch;

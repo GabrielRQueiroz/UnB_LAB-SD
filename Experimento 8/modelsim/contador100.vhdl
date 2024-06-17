@@ -39,7 +39,8 @@ BEGIN
     load   => load,
     D      => uniload,
     Q      => x_Q_O_UNI,
-    rco    => x_RCI_O_UNI);
+    rco    => x_RCI_O_UNI
+  );
 
   contador_10_dez : contador10 PORT MAP(
     clock  => clock,
@@ -49,7 +50,8 @@ BEGIN
     load   => load,
     D      => dezload,
     Q      => x_Q_O_DEZ,
-    rco    => OPEN);
+    rco    => OPEN
+  );
 
   unidade <= x_Q_O_UNI;
   dezena  <= x_Q_O_DEZ;

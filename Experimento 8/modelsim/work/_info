@@ -15,7 +15,7 @@ Z1 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 3
+!i122 171
 Z5 dE:/UnB/UnB_LAB-SD/Experimento 8/modelsim
 Z6 8E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/contador10.vhdl
 Z7 FE:/UnB/UnB_LAB-SD/Experimento 8/modelsim/contador10.vhdl
@@ -25,9 +25,9 @@ V7M1C41SY3DBi^bd]5^;aW1
 !s100 <_IbWnV[5bCnkYF4MchGA1
 Z8 OV;C;2020.1;71
 32
-Z9 !s110 1717212245
+Z9 !s110 1718550960
 !i10b 1
-Z10 !s108 1717212245.000000
+Z10 !s108 1718550960.000000
 Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/contador10.vhdl|
 Z12 !s107 E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/contador10.vhdl|
 !i113 1
@@ -39,7 +39,7 @@ R2
 R3
 R4
 DEx4 work 10 contador10 0 22 7M1C41SY3DBi^bd]5^;aW1
-!i122 3
+!i122 171
 l25
 L18 179
 V?@f_4:N1jWU>:3P`116em2
@@ -55,10 +55,10 @@ R12
 R13
 R14
 Econtador100
-Z15 w1717208594
+Z15 w1718510511
 R3
 R4
-!i122 4
+!i122 172
 R5
 Z16 8E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/contador100.vhdl
 Z17 FE:/UnB/UnB_LAB-SD/Experimento 8/modelsim/contador100.vhdl
@@ -68,11 +68,11 @@ VB^Rcg]=i@FGJ3b]P>2W810
 !s100 B>kJaF99NOE27B4`l34Ml1
 R8
 32
-R9
+Z18 !s110 1718550961
 !i10b 1
 R10
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/contador100.vhdl|
-Z19 !s107 E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/contador100.vhdl|
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/contador100.vhdl|
+Z20 !s107 E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/contador100.vhdl|
 !i113 1
 R13
 R14
@@ -80,65 +80,460 @@ Acontador100_arch
 R3
 R4
 DEx4 work 11 contador100 0 22 B^Rcg]=i@FGJ3b]P>2W810
-!i122 4
+!i122 172
 l32
-L16 41
-VMZ1VPN:DdM2P_78@L^Tb21
-!s100 @e;=B=4N8h:4V2ldSz8`;0
+L16 43
+VWzi38gHEUZ5gG[]zJ:S5D3
+!s100 GC^?fl[clH2NT<]<je<C91
+R8
+32
+R18
+!i10b 1
+R10
+R19
+R20
+!i113 1
+R13
+R14
+Eexp8visto1
+Z21 w1717203467
+R3
+R4
+!i122 174
+R5
+Z22 8E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/exp8visto1.vhdl
+Z23 FE:/UnB/UnB_LAB-SD/Experimento 8/modelsim/exp8visto1.vhdl
+l0
+L4 1
+VmMK>_edGOAmeYlI1]4jR>2
+!s100 2]F[lDRGH7j[[4_Ed596J2
+R8
+32
+R18
+!i10b 1
+Z24 !s108 1718550961.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/exp8visto1.vhdl|
+Z26 !s107 E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/exp8visto1.vhdl|
+!i113 1
+R13
+R14
+Aexp8visto1_arch
+R3
+R4
+DEx4 work 10 exp8visto1 0 22 mMK>_edGOAmeYlI1]4jR>2
+!i122 174
+l17
+L15 7
+VD5Hc0`T;K:lj[03gG8e;m3
+!s100 S=J_TNQFU972Se15TRI7i1
+R8
+32
+R18
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R13
+R14
+Eexp8visto2
+Z27 w1718515511
+R3
+R4
+!i122 175
+R5
+Z28 8E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/exp8visto2.vhdl
+Z29 FE:/UnB/UnB_LAB-SD/Experimento 8/modelsim/exp8visto2.vhdl
+l0
+L4 1
+VPXioFHBk5PDGeRO>8ESGC1
+!s100 6XVPj7ZA:`Pe_GEWB7WfK3
+R8
+32
+R18
+!i10b 1
+R24
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/exp8visto2.vhdl|
+Z31 !s107 E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/exp8visto2.vhdl|
+!i113 1
+R13
+R14
+Aexp8visto2_arch
+R3
+R4
+DEx4 work 10 exp8visto2 0 22 PXioFHBk5PDGeRO>8ESGC1
+!i122 175
+l41
+L17 47
+VlPgM^df1XAalhC^Cf1bKK1
+!s100 jRB:enS`Uo16eFbT0RPXh1
+R8
+32
+R18
+!i10b 1
+R24
+R30
+R31
+!i113 1
+R13
+R14
+Eexp8visto3
+Z32 w1718550222
+R3
+R4
+!i122 179
+R5
+Z33 8E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/exp8visto3.vhdl
+Z34 FE:/UnB/UnB_LAB-SD/Experimento 8/modelsim/exp8visto3.vhdl
+l0
+L4 1
+VZ:PQSXWljIjz5`akj397K1
+!s100 :gZ8gb3O;IUHTPdSM2:BT3
+R8
+32
+Z35 !s110 1718550963
+!i10b 1
+Z36 !s108 1718550963.000000
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/exp8visto3.vhdl|
+Z38 !s107 E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/exp8visto3.vhdl|
+!i113 1
+R13
+R14
+Aexp8visto3_arch
+R3
+R4
+DEx4 work 10 exp8visto3 0 22 Z:PQSXWljIjz5`akj397K1
+!i122 179
+l54
+L16 76
+Vz7h3?j43M>0zjNM[MVBX83
+!s100 ]1Ma2k3BhF<oW6a=BUePZ0
+R8
+32
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 1
+R13
+R14
+Emaqestados
+Z39 w1718550940
+R3
+R4
+!i122 180
+R5
+Z40 8E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/maqestados.vhdl
+Z41 FE:/UnB/UnB_LAB-SD/Experimento 8/modelsim/maqestados.vhdl
+l0
+L4 1
+V2dOAKZ>A7fJ^l1B9oVzY@0
+!s100 ^bARm?5@jeE?fPb[b4BTP3
+R8
+32
+R35
+!i10b 1
+R36
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/maqestados.vhdl|
+Z43 !s107 E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/maqestados.vhdl|
+!i113 1
+R13
+R14
+Amaqestados_arch
+R3
+R4
+Z44 DEx4 work 10 maqestados 0 22 2dOAKZ>A7fJ^l1B9oVzY@0
+!i122 180
+l25
+Z45 L19 145
+VZE;zd9NN;Uza5Vnzmn]l_0
+!s100 kEkP6H87jh26HP21X5JEc3
+R8
+32
+R35
+!i10b 1
+R36
+R42
+R43
+!i113 1
+R13
+R14
+Etb_contadores
+Z46 w1717212218
+Z47 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R1
+R3
+R4
+!i122 170
+R5
+Z48 8E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_contadores.vhd
+Z49 FE:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_contadores.vhd
+l0
+Z50 L27 1
+V<_]D4:Zg3=a?D5Z9BMB^g2
+!s100 4?kf_^Tlil@YDN[1@5[O_2
 R8
 32
 R9
 !i10b 1
 R10
-R18
-R19
-!i113 1
-R13
-R14
-Etb_contadores
-Z20 w1717212218
-Z21 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-R2
-R1
-R3
-R4
-!i122 5
-R5
-Z22 8E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_contadores.vhd
-Z23 FE:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_contadores.vhd
-l0
-L27 1
-V<_]D4:Zg3=a?D5Z9BMB^g2
-!s100 4?kf_^Tlil@YDN[1@5[O_2
-R8
-32
-Z24 !s110 1717212246
-!i10b 1
-Z25 !s108 1717212246.000000
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_contadores.vhd|
-Z27 !s107 E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_contadores.vhd|
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_contadores.vhd|
+Z52 !s107 E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_contadores.vhd|
 !i113 1
 R13
 R14
 Atb_contadores_arch
-R21
+R47
 R2
 R1
 R3
 R4
-Z28 DEx4 work 13 tb_contadores 0 22 <_]D4:Zg3=a?D5Z9BMB^g2
-!i122 5
+DEx4 work 13 tb_contadores 0 22 <_]D4:Zg3=a?D5Z9BMB^g2
+!i122 170
 l69
 L42 71
 VW?_N`m>3_O[OW@BOjPD[A1
 !s100 =NeVKOZ=BhA[CJXj`[@^13
 R8
 32
-R24
+R9
 !i10b 1
-R25
-R26
-R27
+R10
+R51
+R52
+!i113 1
+R13
+R14
+Etb_timeflags
+Z53 w1718512407
+R47
+R2
+R1
+R3
+R4
+!i122 21
+R5
+Z54 8E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_visto2.vhd
+Z55 FE:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_visto2.vhd
+l0
+R50
+V8c_T8ZNX:ijS0OFmM3gG_2
+!s100 Z`c8[n6XHX_J`;<l6Ld411
+R8
+32
+Z56 !s110 1718512644
+!i10b 1
+Z57 !s108 1718512644.000000
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_visto2.vhd|
+Z59 !s107 E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_visto2.vhd|
+!i113 1
+R13
+R14
+Atb_timeflags_arch
+R47
+R2
+R1
+R3
+R4
+DEx4 work 12 tb_timeflags 0 22 8c_T8ZNX:ijS0OFmM3gG_2
+!i122 21
+l55
+L42 32
+VzzLca:[8lZHeM8C1XdB9K2
+!s100 ?:2D6zFIg;V2AfOdTj0m:3
+R8
+32
+R56
+!i10b 1
+R57
+R58
+R59
+!i113 1
+R13
+R14
+Etb_visto1
+Z60 w1718517166
+R47
+R2
+R1
+R3
+R4
+!i122 176
+R5
+Z61 8E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_visto1.vhd
+Z62 FE:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_visto1.vhd
+l0
+R50
+VU]@JoaLoS6m]6M:e]=JM12
+!s100 _7PdfWgG]^0[5bh=Z8OTn2
+R8
+32
+R18
+!i10b 1
+R24
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_visto1.vhd|
+Z64 !s107 E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_visto1.vhd|
+!i113 1
+R13
+R14
+Atb_visto1_arch
+R47
+R2
+R1
+R3
+R4
+DEx4 work 9 tb_visto1 0 22 U]@JoaLoS6m]6M:e]=JM12
+!i122 176
+l59
+L32 71
+VBQz0jho3IiR<2f;aCd4m@0
+!s100 n4MjWn9Dh88j`FWYcHd_J0
+R8
+32
+R18
+!i10b 1
+R24
+R63
+R64
+!i113 1
+R13
+R14
+Etb_visto2
+Z65 w1718517218
+R47
+R2
+R1
+R3
+R4
+!i122 177
+R5
+R54
+R55
+l0
+R50
+V]IVnoda_gzO4eR<PUTfXO1
+!s100 =iob6zMl1MM0BhFX6Qa1i2
+R8
+32
+Z66 !s110 1718550962
+!i10b 1
+Z67 !s108 1718550962.000000
+R58
+R59
+!i113 1
+R13
+R14
+Atb_visto2_arch
+R47
+R2
+R1
+R3
+R4
+DEx4 work 9 tb_visto2 0 22 ]IVnoda_gzO4eR<PUTfXO1
+!i122 177
+l45
+L32 32
+V>cT9U9<eCdoEjSiJG7F=j3
+!s100 ;?PbebR4A:albh^TB`7i?3
+R8
+32
+R66
+!i10b 1
+R67
+R58
+R59
+!i113 1
+R13
+R14
+Etb_visto3
+Z68 w1718547293
+Z69 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+R47
+R2
+R1
+R3
+R4
+!i122 178
+R5
+Z70 8E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_visto3.vhd
+Z71 FE:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_visto3.vhd
+l0
+L28 1
+V<I4BKR0_5<BKVZbh>?C5O0
+!s100 @zRU;Bnl^UTenUjlJ=5`70
+R8
+32
+R35
+!i10b 1
+R36
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_visto3.vhd|
+Z73 !s107 E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_visto3.vhd|
+!i113 1
+R13
+R14
+Atb_visto3_arch
+R69
+R47
+R2
+R1
+R3
+R4
+DEx4 work 9 tb_visto3 0 22 <I4BKR0_5<BKVZbh>?C5O0
+!i122 178
+l48
+L33 62
+VC3UHgYgSn_5`Me3g5_c9E1
+!s100 oB5l0EENTTM3iE7`5f3Th0
+R8
+32
+R35
+!i10b 1
+R36
+R72
+R73
+!i113 1
+R13
+R14
+Etimeflags
+Z74 w1718514040
+R3
+R4
+!i122 173
+R5
+Z75 8E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/timeflags.vhdl
+Z76 FE:/UnB/UnB_LAB-SD/Experimento 8/modelsim/timeflags.vhdl
+l0
+L4 1
+VCBKXhPIbdThAzl2T9PcJ`0
+!s100 7WiDUXhdG^7`eP0dGVK:h2
+R8
+32
+R18
+!i10b 1
+R24
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/timeflags.vhdl|
+Z78 !s107 E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/timeflags.vhdl|
+!i113 1
+R13
+R14
+Atimeflags_arch
+R3
+R4
+DEx4 work 9 timeflags 0 22 CBKXhPIbdThAzl2T9PcJ`0
+!i122 173
+l16
+L14 15
+VKaa8>39;6aiX583?XQ^zW3
+!s100 AP[KXICTR^_6j98mL`Kbh0
+R8
+32
+R18
+!i10b 1
+R24
+R77
+R78
 !i113 1
 R13
 R14
