@@ -3,12 +3,14 @@ USE IEEE.STD_LOGIC_1164.ALL;
 
 ENTITY exp8visto2 IS
   PORT (
-    clock : IN STD_LOGIC;
-    reset : IN STD_LOGIC;
-    T60   : OUT STD_LOGIC;
-    T20   : OUT STD_LOGIC;
-    T6    : OUT STD_LOGIC;
-    T5    : OUT STD_LOGIC
+    clock   : IN STD_LOGIC;
+    reset   : IN STD_LOGIC;
+    T60     : OUT STD_LOGIC;
+    T20     : OUT STD_LOGIC;
+    T6      : OUT STD_LOGIC;
+    T5      : OUT STD_LOGIC;
+    dezena  : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+    unidade : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
     -- num7seg  : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
     -- displays : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
   );
@@ -60,4 +62,8 @@ BEGIN
     T20     => T20,
     T60     => T60
   );
+
+  dezena  <= x_DEZENA;
+  unidade <= x_UNIDADE;
+
 END exp8visto2_arch;

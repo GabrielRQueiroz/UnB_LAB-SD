@@ -14,15 +14,23 @@ END timeflags;
 ARCHITECTURE timeflags_arch OF timeflags IS
   -- inserir sinais e componentes aqui
 BEGIN
+  -- T5 <= '1' WHEN ((dezena = x"0" AND unidade >= x"5") OR (DEZENA > x"0")) ELSE
+  --   '0';
+  -- T6 <= '1' WHEN ((dezena = x"0" AND unidade >= x"6") OR (DEZENA > x"0")) ELSE
+  --   '0';
+  -- T20 <= '1' WHEN ((dezena = x"2" AND unidade >= x"0") OR (dezena > x"2")) ELSE
+  --   '0';
+  -- T60 <= '1' WHEN ((dezena = x"6" AND unidade >= x"0") OR (dezena > x"6")) ELSE
+  --   '0';
 
   -- inserir implementacao aqui
-  T5 <= '1' WHEN ((dezena = x"0" AND unidade >= x"5") OR (DEZENA > x"0")) ELSE
+  T5 <= '1' WHEN ((dezena = x"0" AND unidade >= x"4") OR (DEZENA > x"0")) ELSE
     '0';
-  T6 <= '1' WHEN ((dezena = x"0" AND unidade >= x"6") OR (DEZENA > x"0")) ELSE
+  T6 <= '1' WHEN ((dezena = x"0" AND unidade >= x"5") OR (DEZENA > x"0")) ELSE
     '0';
-  T20 <= '1' WHEN ((dezena = x"2" AND unidade >= x"0") OR (dezena > x"2")) ELSE
+  T20 <= '1' WHEN ((dezena = x"1" AND unidade >= x"9") OR (dezena >= x"2")) ELSE
     '0';
-  T60 <= '1' WHEN ((dezena = x"6" AND unidade >= x"0") OR (dezena > x"6")) ELSE
+  T60 <= '1' WHEN ((dezena = x"5" AND unidade >= x"9") OR (dezena >= x"6")) ELSE
     '0';
 
 END timeflags_arch;

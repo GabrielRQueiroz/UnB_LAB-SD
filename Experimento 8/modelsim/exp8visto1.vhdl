@@ -1,24 +1,41 @@
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
 
-entity exp8visto1 is
-  port( clock : in STD_LOGIC;
-        reset : in STD_LOGIC;        
-        enable : in STD_LOGIC;
-        load : in STD_LOGIC;
-        dezload : in STD_LOGIC_VECTOR(3 downto 0);
-        uniload : in STD_LOGIC_VECTOR(3 downto 0);
-        dezena : out STD_LOGIC_VECTOR(3 downto 0);
-        unidade : out STD_LOGIC_VECTOR(3 downto 0) );
-end exp8visto1;
+ENTITY exp8visto1 IS
+  PORT (
+    clock   : IN STD_LOGIC;
+    reset   : IN STD_LOGIC;
+    enable  : IN STD_LOGIC;
+    load    : IN STD_LOGIC;
+    dezload : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+    uniload : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+    dezena  : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+    unidade : OUT STD_LOGIC_VECTOR(3 DOWNTO 0));
+END exp8visto1;
 
-architecture exp8visto1_arch of exp8visto1 is
+ARCHITECTURE exp8visto1_arch OF exp8visto1 IS
   -- inserir sinais e componentes aqui 
-begin
-
+  COMPONENT contador100 IS
+    PORT (
+      clock   : IN STD_LOGIC;
+      reset   : IN STD_LOGIC;
+      enable  : IN STD_LOGIC;
+      load    : IN STD_LOGIC;
+      dezload : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+      uniload : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+      dezena  : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+      unidade : OUT STD_LOGIC_VECTOR(3 DOWNTO 0));
+  END COMPONENT;
+BEGIN
   -- inserir implementacao aqui 
-
-end exp8visto1_arch;
-
-
-
+  contador : contador100 PORT MAP(
+    clock   => clock,
+    reset   => reset,
+    enable  => enable,
+    load    => load,
+    dezload => dezload,
+    uniload => uniload,
+    dezena  => dezena,
+    unidade => unidade
+  );
+END exp8visto1_arch;

@@ -32,32 +32,36 @@ ENTITY tb_visto2 IS END;
 ARCHITECTURE tb_visto2_arch OF tb_visto2 IS
    COMPONENT exp8visto2 IS
       PORT (
-         clock : IN STD_LOGIC;
-         reset : IN STD_LOGIC;
-         T60   : OUT STD_LOGIC;
-         T20   : OUT STD_LOGIC;
-         T6    : OUT STD_LOGIC;
-         T5    : OUT STD_LOGIC
+         clock   : IN STD_LOGIC;
+         reset   : IN STD_LOGIC;
+         T60     : OUT STD_LOGIC;
+         T20     : OUT STD_LOGIC;
+         T6      : OUT STD_LOGIC;
+         T5      : OUT STD_LOGIC;
+         dezena  : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+         unidade : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
       );
    END COMPONENT;
 
    SIGNAL x_CLK, x_RESET : STD_LOGIC := '1';
 BEGIN
-   contador10_inst : exp8visto2 PORT MAP(
-      clock => x_CLK,
-      reset => x_RESET,
-      T60   => OPEN,
-      T20   => OPEN,
-      T6    => OPEN,
-      T5    => OPEN
+   timer_inst : exp8visto2 PORT MAP(
+      clock   => x_CLK,
+      reset   => x_RESET,
+      T60     => OPEN,
+      T20     => OPEN,
+      T6      => OPEN,
+      T5      => OPEN,
+      dezena  => OPEN,
+      unidade => OPEN
    );
 
-   x_CLK   <= NOT x_CLK AFTER 500 ns;
-   x_RESET <= '0' AFTER 2000 ns;
+   x_CLK   <= NOT x_CLK AFTER 0.5 sec;
+   x_RESET <= '0' AFTER 2 sec;
 
    estimulo : PROCESS
    BEGIN
-      WAIT FOR 102000 NS;
+      WAIT FOR 102 sec;
    END PROCESS;
 
 END tb_visto2_arch;

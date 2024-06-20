@@ -18,7 +18,7 @@ END maqestados;
 
 ARCHITECTURE maqestados_arch OF maqestados IS
   -- inserir sinais e componentes aqui 
-  TYPE state IS (Off1, Off2, StartingYellow5, StartingRed6, NorthGreen, EastGreen, NorthToEastYellow5, NorthToEastRed6, EastToNorthYellow5, EastToNorthRed6);
+  TYPE state IS (Off1, Off2, StartingYellow6, StartingRed5, NorthGreen, EastGreen, NorthToEastYellow6, NorthToEastRed5, EastToNorthYellow6, EastToNorthRed5);
   SIGNAL estado_atual, proximo_estado : state;
 
   SIGNAL x_YELLOW_A, x_YELLOW_B : STD_LOGIC := '1';
@@ -32,6 +32,7 @@ BEGIN
     ELSE
       resetcounter <= '1';
     END IF;
+
     IF (rising_edge(clock)) THEN
       resetcounter <= '1';
       estado_atual <= proximo_estado;
@@ -43,7 +44,7 @@ BEGIN
     CASE estado_atual IS
       WHEN (Off1) =>
         IF (ligadesliga = '1') THEN
-          proximo_estado <= StartingYellow5;
+          proximo_estado <= StartingYellow6;
         ELSE
           proximo_estado <= Off2;
         END IF;
@@ -51,60 +52,60 @@ BEGIN
       WHEN (Off2) =>
         proximo_estado <= Off1;
 
-      WHEN (StartingYellow5) =>
-        IF (T5 = '1') THEN
-          proximo_estado <= StartingRed6;
+      WHEN (StartingYellow6) =>
+        IF (T6 = '1') THEN
+          proximo_estado <= StartingRed5;
         ELSE
-          proximo_estado <= StartingYellow5;
+          proximo_estado <= StartingYellow6;
         END IF;
 
-      WHEN (StartingRed6) =>
-        IF (T6 = '1') THEN
+      WHEN (StartingRed5) =>
+        IF (T5 = '1') THEN
           proximo_estado <= NorthGreen;
         ELSE
-          proximo_estado <= StartingRed6;
+          proximo_estado <= StartingRed5;
         END IF;
 
       WHEN (NorthGreen) =>
         IF ((sensorA = '0' AND sensorB = '1' AND T20 = '1') OR T60 = '1') THEN
-          proximo_estado <= NorthToEastYellow5;
+          proximo_estado <= NorthToEastYellow6;
         ELSE
           proximo_estado <= NorthGreen;
         END IF;
 
       WHEN (EastGreen) =>
         IF ((sensorA = '1' AND sensorB = '0' AND T20 = '1') OR T60 = '1') THEN
-          proximo_estado <= EastToNorthYellow5;
+          proximo_estado <= EastToNorthYellow6;
         ELSE
           proximo_estado <= EastGreen;
         END IF;
 
-      WHEN (NorthToEastYellow5) =>
-        IF (T5 = '1') THEN
-          proximo_estado <= NorthToEastRed6;
+      WHEN (NorthToEastYellow6) =>
+        IF (T6 = '1') THEN
+          proximo_estado <= NorthToEastRed5;
         ELSE
-          proximo_estado <= NorthToEastYellow5;
+          proximo_estado <= NorthToEastYellow6;
         END IF;
 
-      WHEN (NorthToEastRed6) =>
-        IF (T6 = '1') THEN
+      WHEN (NorthToEastRed5) =>
+        IF (T5 = '1') THEN
           proximo_estado <= EastGreen;
         ELSE
-          proximo_estado <= NorthToEastRed6;
+          proximo_estado <= NorthToEastRed5;
         END IF;
 
-      WHEN (EastToNorthYellow5) =>
-        IF (T5 = '1') THEN
-          proximo_estado <= EastToNorthRed6;
-        ELSE
-          proximo_estado <= EastToNorthYellow5;
-        END IF;
-
-      WHEN (EastToNorthRed6) =>
+      WHEN (EastToNorthYellow6) =>
         IF (T6 = '1') THEN
+          proximo_estado <= EastToNorthRed5;
+        ELSE
+          proximo_estado <= EastToNorthYellow6;
+        END IF;
+
+      WHEN (EastToNorthRed5) =>
+        IF (T5 = '1') THEN
           proximo_estado <= NorthGreen;
         ELSE
-          proximo_estado <= EastToNorthRed6;
+          proximo_estado <= EastToNorthRed5;
         END IF;
 
       WHEN OTHERS =>
@@ -123,11 +124,11 @@ BEGIN
         RYGsemaforoA <= "010";
         RYGsemaforoB <= "010";
 
-      WHEN (StartingYellow5) =>
+      WHEN (StartingYellow6) =>
         RYGsemaforoA <= "010";
         RYGsemaforoB <= "010";
 
-      WHEN (StartingRed6) =>
+      WHEN (StartingRed5) =>
         RYGsemaforoA <= "100";
         RYGsemaforoB <= "100";
 
@@ -139,19 +140,19 @@ BEGIN
         RYGsemaforoA <= "100";
         RYGsemaforoB <= "001";
 
-      WHEN (NorthToEastYellow5) =>
+      WHEN (NorthToEastYellow6) =>
         RYGsemaforoA <= "010";
         RYGsemaforoB <= "100";
 
-      WHEN (NorthToEastRed6) =>
+      WHEN (NorthToEastRed5) =>
         RYGsemaforoA <= "100";
         RYGsemaforoB <= "100";
 
-      WHEN (EastToNorthYellow5) =>
+      WHEN (EastToNorthYellow6) =>
         RYGsemaforoA <= "100";
         RYGsemaforoB <= "010";
 
-      WHEN (EastToNorthRed6) =>
+      WHEN (EastToNorthRed5) =>
         RYGsemaforoA <= "100";
         RYGsemaforoB <= "100";
 

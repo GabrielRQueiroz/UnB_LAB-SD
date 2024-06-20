@@ -83,7 +83,8 @@ BEGIN
     T5           => x_T5,
     resetcounter => x_RESETCOUNTER,
     RYGsemaforoA => RYGsemaforoA,
-    RYGsemaforoB => RYGsemaforoB);
+    RYGsemaforoB => RYGsemaforoB
+  );
 
   dezena  <= x_DEZENA;
   unidade <= x_UNIDADE;

@@ -18,7 +18,6 @@ USE IEEE.STD_LOGIC_1164.ALL;
 USE ieee.STD_LOGIC_UNSIGNED.ALL;
 USE IEEE.NUMERIC_STD.ALL;
 USE IEEE.STD_LOGIC_ARITH.ALL;
-USE STD.ENV.STOP;
 
 -- ************ Entity ************
 -- testbench: uma entidade sem pinos de entrada e saída
@@ -57,37 +56,36 @@ BEGIN
       RYGsemaforoB => OPEN
    );
 
-   x_CLK         <= NOT x_CLK AFTER 500 ns;
-   x_LIGADESLIGA <= '1' AFTER 12000 ns;
+   x_CLK         <= NOT x_CLK AFTER 0.5 sec;
+   x_LIGADESLIGA <= '1' AFTER 12.5 sec;
 
    estimulo : PROCESS
    BEGIN
       -- Carro nos dois sensores
-      WAIT FOR 91000 NS;
+      WAIT FOR 95 sec;
 
       -- Nenhum carro no sensor B, mas no sensor A
       x_SENSOR_B <= '0';
 
-      WAIT FOR 91000 NS;
+      WAIT FOR 31 sec;
 
       -- Nenhum carro no sensor A, mas no sensor B
       x_SENSOR_A <= '0';
       x_SENSOR_B <= '1';
 
-      WAIT FOR 91000 NS;
+      WAIT FOR 31 sec;
 
       -- Nenhum carro em nenhum dos sensores
       x_SENSOR_A <= '0';
       x_SENSOR_B <= '0';
 
-      WAIT FOR 142000 NS;
+      WAIT FOR 142 sec;
 
-      -- Carro no sensor A chega após
+      -- Carro no sensor A chega
       x_SENSOR_A <= '1';
 
-      WAIT FOR 150000 NS;
-
-      STOP;
+      WAIT FOR 150 sec;
+      WAIT;
 
    END PROCESS;
 
