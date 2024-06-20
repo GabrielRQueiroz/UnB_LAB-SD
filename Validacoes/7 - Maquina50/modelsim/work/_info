@@ -1,0 +1,95 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim
+Emaquina_refri_50
+Z0 w1718849938
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 6
+Z3 dE:/UnB/UnB_LAB-SD/Validacoes/7 - Maquina50/modelsim
+Z4 8E:/UnB/UnB_LAB-SD/Validacoes/7 - Maquina50/modelsim/maquina_refri_50.vhd
+Z5 FE:/UnB/UnB_LAB-SD/Validacoes/7 - Maquina50/modelsim/maquina_refri_50.vhd
+l0
+L8 1
+V]ObX:U?1GLRRm<CD9lU183
+!s100 M=_]Hbf0U:lJdeX=7HJLh1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1718850010
+!i10b 1
+Z8 !s108 1718850010.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Validacoes/7 - Maquina50/modelsim/maquina_refri_50.vhd|
+Z10 !s107 E:/UnB/UnB_LAB-SD/Validacoes/7 - Maquina50/modelsim/maquina_refri_50.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Amaquina_refri_50_arch
+R1
+R2
+Z13 DEx4 work 16 maquina_refri_50 0 22 ]ObX:U?1GLRRm<CD9lU183
+!i122 6
+l22
+Z14 L18 56
+V8nMf<C5gk=ml>W;olRe:[3
+!s100 jED2RjUj_:I3FI?6iB8442
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etestbench
+Z15 w1718849991
+Z16 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+!i122 5
+R3
+Z17 8E:/UnB/UnB_LAB-SD/Validacoes/7 - Maquina50/modelsim/tb_maquina_refri_50.vhd
+Z18 FE:/UnB/UnB_LAB-SD/Validacoes/7 - Maquina50/modelsim/tb_maquina_refri_50.vhd
+l0
+L13 1
+V>m8TB7`e<0VEY=B^3[NL?1
+!s100 lk9cE:M@lhLUR7Jg2:Ob20
+R6
+32
+Z19 !s110 1718850009
+!i10b 1
+Z20 !s108 1718850009.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Validacoes/7 - Maquina50/modelsim/tb_maquina_refri_50.vhd|
+Z22 !s107 E:/UnB/UnB_LAB-SD/Validacoes/7 - Maquina50/modelsim/tb_maquina_refri_50.vhd|
+!i113 1
+R11
+R12
+Atb_maquina_refri_50
+R16
+R1
+R2
+DEx4 work 9 testbench 0 22 >m8TB7`e<0VEY=B^3[NL?1
+!i122 5
+l34
+L18 64
+V:T]=kmoS`I]hGKI=kofJA1
+!s100 <UDE`>JF`@:X>[FbjM`n32
+R6
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R11
+R12

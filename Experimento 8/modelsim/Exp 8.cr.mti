@@ -1,1 +1,92 @@
+{E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_visto2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_visto2.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_visto2
+-- Compiling architecture tb_visto2_arch of tb_visto2
 
+} {} {}} {E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/exp8visto2.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/exp8visto2.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity exp8visto2
+-- Compiling architecture exp8visto2_arch of exp8visto2
+
+} {} {}} {E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/timeflags.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/timeflags.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity timeflags
+-- Compiling architecture timeflags_arch of timeflags
+
+} {} {}} {E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_visto3.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_visto3.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_visto3
+-- Compiling architecture tb_visto3_arch of tb_visto3
+
+} {} {}} {E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/exp8visto3.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/exp8visto3.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity exp8visto3
+-- Compiling architecture exp8visto3_arch of exp8visto3
+
+} {} {}} {E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/maqestados.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/maqestados.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity maqestados
+-- Compiling architecture maqestados_arch of maqestados
+
+} {} {}} {E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_visto1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/tb_visto1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_visto1
+-- Compiling architecture tb_visto1_arch of tb_visto1
+
+} {} {}} {E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/exp8visto1.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/exp8visto1.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity exp8visto1
+-- Compiling architecture exp8visto1_arch of exp8visto1
+
+} {} {}} {E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/contador100.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/contador100.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity contador100
+-- Compiling architecture contador100_arch of contador100
+
+} {} {}} {E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/contador10.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Experimento 8/modelsim/contador10.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity contador10
+-- Compiling architecture contador10_arch of contador10
+
+} {} {}}
