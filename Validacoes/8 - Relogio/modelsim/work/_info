@@ -1,0 +1,316 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Econtador10000_relogio
+Z0 w1719284345
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 117
+Z3 dE:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim
+Z4 8E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador10000.vhd
+Z5 FE:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador10000.vhd
+l0
+L4 1
+VOZ^cd9n781VJcNbDBjPzX2
+!s100 cXYdMQK:7iP=z@g8AT?9K1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1719285833
+!i10b 1
+Z8 !s108 1719285833.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador10000.vhd|
+Z10 !s107 E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador10000.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Acontador10000_relogio_arch
+R1
+R2
+DEx4 work 21 contador10000_relogio 0 22 OZ^cd9n781VJcNbDBjPzX2
+!i122 117
+l37
+L20 72
+VEjiA]]EYe;TOc9`0`75BR0
+!s100 ]8PCo?<4VMTEF^KfRY:i60
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Econtador100_relogio
+Z13 w1719271782
+R1
+R2
+!i122 13
+R3
+Z14 8E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador100.vhd
+Z15 FE:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador100.vhd
+l0
+L4 1
+VAm;]>oY8kJACZ_nbIZ1k31
+!s100 Ko_O?nzKTMF^Wo[3E[MGE2
+R6
+32
+Z16 !s110 1719275804
+!i10b 1
+Z17 !s108 1719275804.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador100.vhd|
+Z19 !s107 E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador100.vhd|
+!i113 1
+R11
+R12
+Acontador100_relogio_arch
+R1
+R2
+DEx4 work 19 contador100_relogio 0 22 Am;]>oY8kJACZ_nbIZ1k31
+!i122 13
+l32
+L16 43
+VN__Z5[<^VSjCJSVmn]a^a1
+!s100 6GdKSHl78=3BNWeZnERER2
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Econtador10_relogio
+Z20 w1719283528
+Z21 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z22 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R1
+R2
+!i122 116
+R3
+Z23 8E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador10.vhd
+Z24 FE:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador10.vhd
+l0
+L6 1
+VEDTJV_[CG[]^?X]Bo7X3M0
+!s100 eZzXc]9YnlR?Mc<O5^A<F1
+R6
+32
+R7
+!i10b 1
+R8
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador10.vhd|
+Z26 !s107 E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador10.vhd|
+!i113 1
+R11
+R12
+Acontador10_relogio_arch
+R21
+R22
+R1
+R2
+DEx4 work 18 contador10_relogio 0 22 EDTJV_[CG[]^?X]Bo7X3M0
+!i122 116
+l25
+L18 179
+Vb@N0aM^>8FLMMZPnUC87W0
+!s100 DXV9Dj4WYO29gADgWG<^^0
+R6
+32
+R7
+!i10b 1
+R8
+R25
+R26
+!i113 1
+R11
+R12
+Emaqestados_relogio
+Z27 w1719282653
+R22
+R21
+R1
+R2
+!i122 84
+R3
+Z28 8E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/maqestados.vhd
+Z29 FE:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/maqestados.vhd
+l0
+L6 1
+VgPWA<7TRadXMb6:@nN8=`3
+!s100 5fmZG`[5kW:L[nBaVJB8>0
+R6
+32
+Z30 !s110 1719284375
+!i10b 1
+Z31 !s108 1719284375.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/maqestados.vhd|
+Z33 !s107 E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/maqestados.vhd|
+!i113 1
+R11
+R12
+Amaqestados_relogio_arch
+R22
+R21
+R1
+R2
+DEx4 work 18 maqestados_relogio 0 22 gPWA<7TRadXMb6:@nN8=`3
+!i122 84
+l18
+L12 47
+V2HZe@0X]ZaLO<L66V`c6Q2
+!s100 8zbQ4b]ilQO6K<A^L@S8>1
+R6
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R11
+R12
+Erelogio
+Z34 w1719285811
+R21
+R22
+R1
+R2
+!i122 119
+R3
+Z35 8E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/relogio.vhd
+Z36 FE:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/relogio.vhd
+l0
+L6 1
+VQW_H]TE=l6ebLX@Z[4P6@0
+!s100 N9J::U8a:O]ooF[Z3FHkZ2
+R6
+32
+Z37 !s110 1719285834
+!i10b 1
+Z38 !s108 1719285834.000000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/relogio.vhd|
+Z40 !s107 E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/relogio.vhd|
+!i113 1
+R11
+R12
+Arelogio_arch
+R21
+R22
+R1
+R2
+DEx4 work 7 relogio 0 22 QW_H]TE=l6ebLX@Z[4P6@0
+!i122 119
+l45
+L13 118
+Vz6=:I2DjUFKa[=3Ua@AMK3
+!s100 5e7HgOVBNeDPR;Mk<>BN40
+R6
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R11
+R12
+Etb_relogio
+Z41 w1719284564
+Z42 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R22
+R21
+R1
+R2
+!i122 120
+R3
+Z43 8E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/tb_relogio.vhd
+Z44 FE:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/tb_relogio.vhd
+l0
+L14 1
+VEhC=7NlS5]OlH8mD9E1cd1
+!s100 <?VDAAFA^QeiTKiDlkGDj2
+R6
+32
+R37
+!i10b 1
+R38
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/tb_relogio.vhd|
+Z46 !s107 E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/tb_relogio.vhd|
+!i113 1
+R11
+R12
+Atb_relogio_arch
+R42
+R22
+R21
+R1
+R2
+Z47 DEx4 work 10 tb_relogio 0 22 EhC=7NlS5]OlH8mD9E1cd1
+!i122 120
+l47
+Z48 L19 44
+Z49 VB@kV^:dj1o91Gl;EblndR2
+Z50 !s100 G=hXFZ7Xa2]Ski^P?`HR:3
+R6
+32
+R37
+!i10b 1
+R38
+R45
+R46
+!i113 1
+R11
+R12
+Etimeflags_relogio
+Z51 w1719285497
+R1
+R2
+!i122 118
+R3
+Z52 8E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/timeflags.vhd
+Z53 FE:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/timeflags.vhd
+l0
+L4 1
+VL@GoXmNEPfe91==zjTLeP3
+!s100 LRbd9;nl@0?OLi7=AoaEf1
+R6
+32
+R37
+!i10b 1
+R8
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/timeflags.vhd|
+Z55 !s107 E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/timeflags.vhd|
+!i113 1
+R11
+R12
+Atimeflags_relogio_arch
+R1
+R2
+DEx4 work 17 timeflags_relogio 0 22 L@GoXmNEPfe91==zjTLeP3
+!i122 118
+l16
+L14 12
+V:Bd>5n^l3bnC8OZH6BXc`2
+!s100 OYNiYzm@M2mbHfC2Qd56T3
+R6
+32
+R37
+!i10b 1
+R8
+R54
+R55
+!i113 1
+R11
+R12
