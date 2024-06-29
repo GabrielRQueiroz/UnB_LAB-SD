@@ -6,7 +6,23 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity uni_shift_register
 -- Compiling architecture uni_shift_register_arch of uni_shift_register
 
+} {} {}} {/home/coffee/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/uni_shift_reg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/coffee/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/uni_shift_reg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity uni_shift_register
+-- Compiling architecture uni_shift_register_arch of uni_shift_register
+
 } {} {}} {E:/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/tb_uni_shift_reg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/tb_uni_shift_reg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity uni_shift_reg_testbench
+-- Compiling architecture tb_uni_shift_reg of uni_shift_reg_testbench
+
+} {} {}} {/home/coffee/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/tb_uni_shift_reg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/coffee/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/tb_uni_shift_reg.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO

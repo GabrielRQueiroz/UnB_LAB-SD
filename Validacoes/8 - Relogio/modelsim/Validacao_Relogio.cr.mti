@@ -1,12 +1,34 @@
-{E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/timeflags.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/timeflags.vhd}
+{/home/coffee/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador60.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/coffee/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador60.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity timeflags_relogio
--- Compiling architecture timeflags_relogio_arch of timeflags_relogio
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity contador60_relogio
+-- Compiling architecture contador60_relogio_arch of contador60_relogio
 
-} {} {}} {E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/relogio.vhd} {2 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/relogio.vhd}
+} {} {}} {/home/coffee/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador24.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/coffee/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador24.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity contador24_relogio
+-- Compiling architecture contador24_relogio_arch of contador24_relogio
+
+} {} {}} {/home/coffee/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador6.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/coffee/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador6.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity contador6_relogio
+-- Compiling architecture contador6_relogio_arch of contador6_relogio
+
+} {} {}} {/home/coffee/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/relogio.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/coffee/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/relogio.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -15,11 +37,18 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package STD_LOGIC_UNSIGNED
 -- Compiling entity relogio
 -- Compiling architecture relogio_arch of relogio
-** Warning: E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/relogio.vhd(101): (vcom-1272) Length of expected is 6; length of actual is 8.
-** Warning: E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/relogio.vhd(103): (vcom-1272) Length of expected is 6; length of actual is 8.
-** Warning: E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/relogio.vhd(106): (vcom-1272) Length of expected is 6; length of actual is 8.
 
-} {} {}} {E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/tb_relogio.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/tb_relogio.vhd}
+} {} {}} {/home/coffee/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador3.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/coffee/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador3.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity contador3_relogio
+-- Compiling architecture contador6_rel3gio_arch of contador3_relogio
+
+} {} {}} {/home/coffee/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/tb_relogio.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/coffee/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/tb_relogio.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -30,15 +59,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity tb_relogio
 -- Compiling architecture tb_relogio_arch of tb_relogio
 
-} {} {}} {E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador10000.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador10000.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity contador10000_relogio
--- Compiling architecture contador10000_relogio_arch of contador10000_relogio
-
-} {} {}} {E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador10.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador10.vhd}
+} {} {}} {/home/coffee/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador10.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/coffee/UnB/UnB_LAB-SD/Validacoes/8 - Relogio/modelsim/contador10.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO

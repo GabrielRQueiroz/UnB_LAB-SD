@@ -10,24 +10,24 @@ z2
 cModel Technology
 dE:/UnB/UnB_LAB-SD/Experimento 8/modelsim
 Euni_shift_reg_testbench
-Z0 w1718848859
+Z0 w1718995460
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 0
-Z3 dE:/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim
-Z4 8E:/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/tb_uni_shift_reg.vhd
-Z5 FE:/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/tb_uni_shift_reg.vhd
+!i122 3
+Z3 d/home/coffee/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim
+Z4 8/home/coffee/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/tb_uni_shift_reg.vhd
+Z5 F/home/coffee/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/tb_uni_shift_reg.vhd
 l0
 L13 1
 Vmz4VF;cX84?K2M3lLLb4o1
 !s100 ?Ej`^5S?[@aKR>e]V@Qh_2
 Z6 OV;C;2020.1;71
 32
-Z7 !s110 1718848926
+Z7 !s110 1719582778
 !i10b 1
-Z8 !s108 1718848926.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/tb_uni_shift_reg.vhd|
-Z10 !s107 E:/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/tb_uni_shift_reg.vhd|
+Z8 !s108 1719582778.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/tb_uni_shift_reg.vhd|
+Z10 !s107 /home/coffee/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/tb_uni_shift_reg.vhd|
 !i113 1
 Z11 o-work work -2002 -explicit
 Z12 tExplicit 1 CvgOpt 0
@@ -35,7 +35,7 @@ Atb_uni_shift_reg
 R1
 R2
 DEx4 work 23 uni_shift_reg_testbench 0 22 mz4VF;cX84?K2M3lLLb4o1
-!i122 0
+!i122 3
 l34
 L18 69
 VzhSgX3JDL=_`9UN:^>:nM3
@@ -51,43 +51,43 @@ R10
 R11
 R12
 Euni_shift_register
-Z13 w1718848987
+R0
 R1
 R2
-!i122 2
+!i122 4
 R3
-Z14 8E:/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/uni_shift_reg.vhd
-Z15 FE:/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/uni_shift_reg.vhd
+Z13 8/home/coffee/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/uni_shift_reg.vhd
+Z14 F/home/coffee/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/uni_shift_reg.vhd
 l0
 L9 1
 V3ckGn<<ZmoZi4>1?5jdLG3
 !s100 V0^UOcKJ9o7cm>3QfHIR73
 R6
 32
-Z16 !s110 1718849544
+R7
 !i10b 1
-Z17 !s108 1718849544.000000
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/uni_shift_reg.vhd|
-Z19 !s107 E:/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/uni_shift_reg.vhd|
+R8
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/coffee/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/uni_shift_reg.vhd|
+!s107 /home/coffee/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/uni_shift_reg.vhd|
 !i113 1
 R11
 R12
 Auni_shift_register_arch
 R1
 R2
-Z20 DEx4 work 18 uni_shift_register 0 22 3ckGn<<ZmoZi4>1?5jdLG3
-!i122 2
+Z16 DEx4 work 18 uni_shift_register 0 22 3ckGn<<ZmoZi4>1?5jdLG3
+!i122 4
 l20
-Z21 L17 16
-Vh5iS;<Qe`fl>MM]=oSYCP1
-!s100 LK31LiRdLEG<=9?l;8D6V1
+Z17 L17 16
+Z18 Vh5iS;<Qe`fl>MM]=oSYCP1
+Z19 !s100 LK31LiRdLEG<=9?l;8D6V1
 R6
 32
-R16
+R7
 !i10b 1
-R17
-R18
-R19
+R8
+R15
+Z20 !s107 /home/coffee/UnB/UnB_LAB-SD/Validacoes/6 - RegistradorUni/modelsim/uni_shift_reg.vhd|
 !i113 1
 R11
 R12

@@ -3,21 +3,21 @@ USE IEEE.STD_LOGIC_1164.ALL;
 USE IEEE.STD_LOGIC_ARITH.ALL;
 USE IEEE.STD_LOGIC_UNSIGNED.ALL;
 
-ENTITY contador10_relogio IS
+ENTITY contador6_relogio IS
   PORT (
     clock  : IN STD_LOGIC;
     reset  : IN STD_LOGIC;
     enable : IN STD_LOGIC;
     rci    : IN STD_LOGIC;
     load   : IN STD_LOGIC;
-    D      : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-    Q      : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+    D      : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+    Q      : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
     rco    : OUT STD_LOGIC);
-END contador10_relogio;
+END contador6_relogio;
 
-ARCHITECTURE contador10_relogio_arch OF contador10_relogio IS
+ARCHITECTURE contador6_relogio_arch OF contador6_relogio IS
   -- inserir sinais e componentes aqui 
-  TYPE state IS (s0, s1, s2, s3, s4, s5, s6, s7, s8, s9);
+  TYPE state IS (s0, s1, s2, s3, s4, s5);
   SIGNAL currentState, nextState, loadState : state;
 
   -- SIGNAL x_D, x_Q : STD_LOGIC_VECTOR(3 DOWNTO 0);
@@ -26,16 +26,12 @@ BEGIN
   -- inserir implementacao aqui 
   WITH D SELECT
     loadState <=
-    s0 WHEN "0000",
-    s1 WHEN "0001",
-    s2 WHEN "0010",
-    s3 WHEN "0011",
-    s4 WHEN "0100",
-    s5 WHEN "0101",
-    s6 WHEN "0110",
-    s7 WHEN "0111",
-    s8 WHEN "1000",
-    s9 WHEN "1001",
+    s0 WHEN "000",
+    s1 WHEN "001",
+    s2 WHEN "010",
+    s3 WHEN "011",
+    s4 WHEN "100",
+    s5 WHEN "101",
     currentState WHEN OTHERS;
 
   sync_proc : PROCESS (clock, reset)
@@ -51,7 +47,7 @@ BEGIN
   BEGIN
     CASE currentState IS
       WHEN s0 =>
-        Q   <= "0000";
+        Q   <= "000";
         rco <= '1';
         IF reset = '1' THEN
           nextState <= s0;
@@ -64,7 +60,7 @@ BEGIN
         END IF;
 
       WHEN s1 =>
-        Q   <= "0001";
+        Q   <= "001";
         rco <= '1';
         IF reset = '1' THEN
           nextState <= s0;
@@ -77,7 +73,7 @@ BEGIN
         END IF;
 
       WHEN s2 =>
-        Q   <= "0010";
+        Q   <= "010";
         rco <= '1';
         IF reset = '1' THEN
           nextState <= s0;
@@ -90,7 +86,7 @@ BEGIN
         END IF;
 
       WHEN s3 =>
-        Q   <= "0011";
+        Q   <= "011";
         rco <= '1';
         IF reset = '1' THEN
           nextState <= s0;
@@ -103,7 +99,7 @@ BEGIN
         END IF;
 
       WHEN s4 =>
-        Q   <= "0100";
+        Q   <= "100";
         rco <= '1';
         IF reset = '1' THEN
           nextState <= s0;
@@ -116,59 +112,7 @@ BEGIN
         END IF;
 
       WHEN s5 =>
-        Q   <= "0101";
-        rco <= '1';
-        IF reset = '1' THEN
-          nextState <= s0;
-        ELSIF load = '1' THEN
-          nextState <= loadState;
-        ELSIF (enable = '0' AND rci = '0') THEN
-          nextState <= s6;
-        ELSE
-          nextState <= s5;
-        END IF;
-
-      WHEN s6 =>
-        Q   <= "0110";
-        rco <= '1';
-        IF reset = '1' THEN
-          nextState <= s0;
-        ELSIF load = '1' THEN
-          nextState <= loadState;
-        ELSIF (enable = '0' AND rci = '0') THEN
-          nextState <= s7;
-        ELSE
-          nextState <= s6;
-        END IF;
-
-      WHEN s7 =>
-        Q   <= "0111";
-        rco <= '1';
-        IF reset = '1' THEN
-          nextState <= s0;
-        ELSIF load = '1' THEN
-          nextState <= loadState;
-        ELSIF (enable = '0' AND rci = '0') THEN
-          nextState <= s8;
-        ELSE
-          nextState <= s7;
-        END IF;
-
-      WHEN s8 =>
-        Q   <= "1000";
-        rco <= '1';
-        IF reset = '1' THEN
-          nextState <= s0;
-        ELSIF load = '1' THEN
-          nextState <= loadState;
-        ELSIF (enable = '0' AND rci = '0') THEN
-          nextState <= s9;
-        ELSE
-          nextState <= s8;
-        END IF;
-
-      WHEN s9 =>
-        Q   <= "1001";
+        Q   <= "101";
         rco <= '0';
         IF reset = '1' THEN
           nextState <= s0;
@@ -177,11 +121,11 @@ BEGIN
         ELSIF (enable = '0' AND rci = '0') THEN
           nextState <= s0;
         ELSE
-          nextState <= s9;
+          nextState <= s5;
         END IF;
 
       WHEN OTHERS =>
-        Q   <= "0000";
+        Q   <= "000";
         rco <= '1';
         IF reset = '1' THEN
           nextState <= s0;
@@ -195,4 +139,4 @@ BEGIN
 
     END CASE;
   END PROCESS;
-END contador10_relogio_arch;
+END contador6_relogio_arch;

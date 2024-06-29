@@ -38,9 +38,11 @@ BEGIN
     s9 WHEN "1001",
     currentState WHEN OTHERS;
 
-  sync_proc : PROCESS (clock)
+  sync_proc : PROCESS (clock, reset)
   BEGIN
-    IF rising_edge(clock) THEN
+    IF reset = '1' THEN
+      currentState <= s0;
+    ELSIF rising_edge(clock) THEN
       currentState <= nextState;
     END IF;
   END PROCESS;
